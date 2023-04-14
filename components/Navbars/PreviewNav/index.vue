@@ -67,7 +67,7 @@
             <a class="nav-links dropLink active" href="/home-digital-agency"> 品質政策 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="/home-digital-agency-onePage" href="#"> 設備介紹 </a>
+            <a class="nav-links dropLink active" href="/home-digital-agency-onePage"> 設備介紹 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
             <a class="nav-links dropLink active" href="/home-freelance-personal"> 產品介紹 </a>
