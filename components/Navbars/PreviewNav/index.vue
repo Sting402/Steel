@@ -64,22 +64,22 @@
             </ul>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 品質政策 </a>
+            <a class="nav-links dropLink active" href="/home-digital-agency"> 品質政策 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 設備介紹 </a>
+            <a class="/home-digital-agency-onePage" href="#"> 設備介紹 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 產品介紹 </a>
+            <a class="nav-links dropLink active" href="/home-freelance-personal"> 產品介紹 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 聯絡我們 </a>
+            <a class="nav-links dropLink active" href="/home-help-desk"> 聯絡我們 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 公司地圖 </a>
+            <a class="nav-links dropLink active" href="/home-it-solutions"> 公司地圖 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#"> 人才招募 </a>
+            <a class="nav-links dropLink active" href="/home-it-solutions-onePage"> 人才招募 </a>
           </li>
         </ul>
       </div>
