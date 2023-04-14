@@ -4,75 +4,75 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _23554282 = () => interopDefault(import('..\\pages\\home-app-landing\\index.vue' /* webpackChunkName: "pages/home-app-landing/index" */))
-const _c5b55112 = () => interopDefault(import('..\\pages\\home-app-landing-onePage\\index.vue' /* webpackChunkName: "pages/home-app-landing-onePage/index" */))
-const _2e2a8728 = () => interopDefault(import('..\\pages\\home-cloud-hosting\\index.vue' /* webpackChunkName: "pages/home-cloud-hosting/index" */))
-const _ff1c1f2e = () => interopDefault(import('..\\pages\\home-crypto\\index.vue' /* webpackChunkName: "pages/home-crypto/index" */))
-const _11ce7116 = () => interopDefault(import('..\\pages\\home-cyber-security\\index.vue' /* webpackChunkName: "pages/home-cyber-security/index" */))
-const _1f3321ea = () => interopDefault(import('..\\pages\\home-data-analysis\\index.vue' /* webpackChunkName: "pages/home-data-analysis/index" */))
-const _16b96ba0 = () => interopDefault(import('..\\pages\\home-digital-agency\\index.vue' /* webpackChunkName: "pages/home-digital-agency/index" */))
-const _4a8d41e8 = () => interopDefault(import('..\\pages\\home-digital-agency-onePage\\index.vue' /* webpackChunkName: "pages/home-digital-agency-onePage/index" */))
-const _7aa63f8c = () => interopDefault(import('..\\pages\\home-freelance-personal\\index.vue' /* webpackChunkName: "pages/home-freelance-personal/index" */))
-const _cc291976 = () => interopDefault(import('..\\pages\\home-help-desk\\index.vue' /* webpackChunkName: "pages/home-help-desk/index" */))
-const _03fcc8d2 = () => interopDefault(import('..\\pages\\home-it-solutions\\index.vue' /* webpackChunkName: "pages/home-it-solutions/index" */))
-const _72d6fe8a = () => interopDefault(import('..\\pages\\home-it-solutions-onePage\\index.vue' /* webpackChunkName: "pages/home-it-solutions-onePage/index" */))
-const _ae5c62e0 = () => interopDefault(import('..\\pages\\home-it-solutions2\\index.vue' /* webpackChunkName: "pages/home-it-solutions2/index" */))
-const _0e964274 = () => interopDefault(import('..\\pages\\home-marketing-startup\\index.vue' /* webpackChunkName: "pages/home-marketing-startup/index" */))
-const _0035b62c = () => interopDefault(import('..\\pages\\home-marketing-startup-onePage\\index.vue' /* webpackChunkName: "pages/home-marketing-startup-onePage/index" */))
-const _8ec3dbe0 = () => interopDefault(import('..\\pages\\home-nft-marketplace\\index.vue' /* webpackChunkName: "pages/home-nft-marketplace/index" */))
-const _5d91cd17 = () => interopDefault(import('..\\pages\\home-payment-solutions\\index.vue' /* webpackChunkName: "pages/home-payment-solutions/index" */))
-const _15f4be71 = () => interopDefault(import('..\\pages\\home-saas-technology\\index.vue' /* webpackChunkName: "pages/home-saas-technology/index" */))
-const _328ae529 = () => interopDefault(import('..\\pages\\home-saas-technology-onePage\\index.vue' /* webpackChunkName: "pages/home-saas-technology-onePage/index" */))
-const _c606ab18 = () => interopDefault(import('..\\pages\\home-shop-modern\\index.vue' /* webpackChunkName: "pages/home-shop-modern/index" */))
-const _6474a513 = () => interopDefault(import('..\\pages\\home-software-company\\index.vue' /* webpackChunkName: "pages/home-software-company/index" */))
-const _3dd9ec6a = () => interopDefault(import('..\\pages\\home-software-company-onePage\\index.vue' /* webpackChunkName: "pages/home-software-company-onePage/index" */))
-const _09e64622 = () => interopDefault(import('..\\pages\\page-404\\index.vue' /* webpackChunkName: "pages/page-404/index" */))
-const _45b58528 = () => interopDefault(import('..\\pages\\page-about-2\\index.vue' /* webpackChunkName: "pages/page-about-2/index" */))
-const _5cca7545 = () => interopDefault(import('..\\pages\\page-about-5\\index.vue' /* webpackChunkName: "pages/page-about-5/index" */))
-const _6d9223d9 = () => interopDefault(import('..\\pages\\page-about-app\\index.vue' /* webpackChunkName: "pages/page-about-app/index" */))
-const _b7248320 = () => interopDefault(import('..\\pages\\page-blog-5\\index.vue' /* webpackChunkName: "pages/page-blog-5/index" */))
-const _08074501 = () => interopDefault(import('..\\pages\\page-blog-5-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-blog-5-left-sidebar/index" */))
-const _5298f2a4 = () => interopDefault(import('..\\pages\\page-blog-5-wide\\index.vue' /* webpackChunkName: "pages/page-blog-5-wide/index" */))
-const _5987ce44 = () => interopDefault(import('..\\pages\\page-blog-app\\index.vue' /* webpackChunkName: "pages/page-blog-app/index" */))
-const _10aee4a6 = () => interopDefault(import('..\\pages\\page-blog-app-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-blog-app-left-sidebar/index" */))
-const _7f98b160 = () => interopDefault(import('..\\pages\\page-blog-app-wide\\index.vue' /* webpackChunkName: "pages/page-blog-app-wide/index" */))
-const _2282c0a7 = () => interopDefault(import('..\\pages\\page-career-details\\index.vue' /* webpackChunkName: "pages/page-career-details/index" */))
-const _6237351d = () => interopDefault(import('..\\pages\\page-careers-5\\index.vue' /* webpackChunkName: "pages/page-careers-5/index" */))
-const _626e5cc0 = () => interopDefault(import('..\\pages\\page-comming-soon-5\\index.vue' /* webpackChunkName: "pages/page-comming-soon-5/index" */))
-const _60f01f92 = () => interopDefault(import('..\\pages\\page-contact-5\\index.vue' /* webpackChunkName: "pages/page-contact-5/index" */))
-const _02132234 = () => interopDefault(import('..\\pages\\page-contact-app\\index.vue' /* webpackChunkName: "pages/page-contact-app/index" */))
-const _51f8705c = () => interopDefault(import('..\\pages\\page-faq-5\\index.vue' /* webpackChunkName: "pages/page-faq-5/index" */))
-const _3bdb436a = () => interopDefault(import('..\\pages\\page-portfolio-5\\index.vue' /* webpackChunkName: "pages/page-portfolio-5/index" */))
-const _68b00684 = () => interopDefault(import('..\\pages\\page-portfolio-app\\index.vue' /* webpackChunkName: "pages/page-portfolio-app/index" */))
-const _32ff01ba = () => interopDefault(import('..\\pages\\page-product-5\\index.vue' /* webpackChunkName: "pages/page-product-5/index" */))
-const _61ed2e37 = () => interopDefault(import('..\\pages\\page-product-app\\index.vue' /* webpackChunkName: "pages/page-product-app/index" */))
-const _0e692734 = () => interopDefault(import('..\\pages\\page-services-5\\index.vue' /* webpackChunkName: "pages/page-services-5/index" */))
-const _324c1608 = () => interopDefault(import('..\\pages\\page-services-app\\index.vue' /* webpackChunkName: "pages/page-services-app/index" */))
-const _374d85df = () => interopDefault(import('..\\pages\\page-services-details-5\\index.vue' /* webpackChunkName: "pages/page-services-details-5/index" */))
-const _6a3a1b9c = () => interopDefault(import('..\\pages\\page-shop-5\\index.vue' /* webpackChunkName: "pages/page-shop-5/index" */))
-const _449cdf20 = () => interopDefault(import('..\\pages\\page-shop-app\\index.vue' /* webpackChunkName: "pages/page-shop-app/index" */))
-const _4a39f7f6 = () => interopDefault(import('..\\pages\\page-sign-in\\index.vue' /* webpackChunkName: "pages/page-sign-in/index" */))
-const _bc7af666 = () => interopDefault(import('..\\pages\\page-single-post-5\\index.vue' /* webpackChunkName: "pages/page-single-post-5/index" */))
-const _2a930478 = () => interopDefault(import('..\\pages\\page-single-post-5-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-single-post-5-left-sidebar/index" */))
-const _08029e67 = () => interopDefault(import('..\\pages\\page-single-post-5-wide\\index.vue' /* webpackChunkName: "pages/page-single-post-5-wide/index" */))
-const _54c47161 = () => interopDefault(import('..\\pages\\page-single-post-app\\index.vue' /* webpackChunkName: "pages/page-single-post-app/index" */))
-const _2926bca0 = () => interopDefault(import('..\\pages\\page-single-post-app-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-single-post-app-left-sidebar/index" */))
-const _7c3d235a = () => interopDefault(import('..\\pages\\page-single-post-app-wide\\index.vue' /* webpackChunkName: "pages/page-single-post-app-wide/index" */))
-const _42162e84 = () => interopDefault(import('..\\pages\\page-single-project-5\\index.vue' /* webpackChunkName: "pages/page-single-project-5/index" */))
-const _0eed9d12 = () => interopDefault(import('..\\pages\\page-single-project-app\\index.vue' /* webpackChunkName: "pages/page-single-project-app/index" */))
-const _2b250494 = () => interopDefault(import('..\\pages\\rtl-home-app-landing-onePage\\index.vue' /* webpackChunkName: "pages/rtl-home-app-landing-onePage/index" */))
-const _b02eda5e = () => interopDefault(import('..\\pages\\rtl-home-marketing-startup\\index.vue' /* webpackChunkName: "pages/rtl-home-marketing-startup/index" */))
-const _67145989 = () => interopDefault(import('..\\pages\\rtl-home-marketing-startup-onePage\\index.vue' /* webpackChunkName: "pages/rtl-home-marketing-startup-onePage/index" */))
-const _20baac8a = () => interopDefault(import('..\\pages\\rtl-page-about\\index.vue' /* webpackChunkName: "pages/rtl-page-about/index" */))
-const _f28925ca = () => interopDefault(import('..\\pages\\rtl-page-blog\\index.vue' /* webpackChunkName: "pages/rtl-page-blog/index" */))
-const _6d99fa52 = () => interopDefault(import('..\\pages\\rtl-page-contact\\index.vue' /* webpackChunkName: "pages/rtl-page-contact/index" */))
-const _675b896f = () => interopDefault(import('..\\pages\\rtl-page-portfolio\\index.vue' /* webpackChunkName: "pages/rtl-page-portfolio/index" */))
-const _c06fdab0 = () => interopDefault(import('..\\pages\\rtl-page-product\\index.vue' /* webpackChunkName: "pages/rtl-page-product/index" */))
-const _f32b8542 = () => interopDefault(import('..\\pages\\rtl-page-services\\index.vue' /* webpackChunkName: "pages/rtl-page-services/index" */))
-const _3c152547 = () => interopDefault(import('..\\pages\\rtl-page-shop\\index.vue' /* webpackChunkName: "pages/rtl-page-shop/index" */))
-const _61e0375c = () => interopDefault(import('..\\pages\\rtl-page-single-post\\index.vue' /* webpackChunkName: "pages/rtl-page-single-post/index" */))
-const _1bed69ae = () => interopDefault(import('..\\pages\\rtl-page-single-project\\index.vue' /* webpackChunkName: "pages/rtl-page-single-project/index" */))
-const _37b4295c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _668a37b8 = () => interopDefault(import('..\\pages\\home-app-landing\\index.vue' /* webpackChunkName: "pages/home-app-landing/index" */))
+const _d4dbb120 = () => interopDefault(import('..\\pages\\home-app-landing-onePage\\index.vue' /* webpackChunkName: "pages/home-app-landing-onePage/index" */))
+const _6c8d05e1 = () => interopDefault(import('..\\pages\\home-cloud-hosting\\index.vue' /* webpackChunkName: "pages/home-cloud-hosting/index" */))
+const _5c14c060 = () => interopDefault(import('..\\pages\\home-crypto\\index.vue' /* webpackChunkName: "pages/home-crypto/index" */))
+const _c0886d06 = () => interopDefault(import('..\\pages\\home-cyber-security\\index.vue' /* webpackChunkName: "pages/home-cyber-security/index" */))
+const _2ec8edc4 = () => interopDefault(import('..\\pages\\home-data-analysis\\index.vue' /* webpackChunkName: "pages/home-data-analysis/index" */))
+const _fadebad2 = () => interopDefault(import('..\\pages\\home-digital-agency\\index.vue' /* webpackChunkName: "pages/home-digital-agency/index" */))
+const _6da97962 = () => interopDefault(import('..\\pages\\home-digital-agency-onePage\\index.vue' /* webpackChunkName: "pages/home-digital-agency-onePage/index" */))
+const _27d30c73 = () => interopDefault(import('..\\pages\\home-freelance-personal\\index.vue' /* webpackChunkName: "pages/home-freelance-personal/index" */))
+const _f5779304 = () => interopDefault(import('..\\pages\\home-help-desk\\index.vue' /* webpackChunkName: "pages/home-help-desk/index" */))
+const _db39e20e = () => interopDefault(import('..\\pages\\home-it-solutions\\index.vue' /* webpackChunkName: "pages/home-it-solutions/index" */))
+const _eff7a49e = () => interopDefault(import('..\\pages\\home-it-solutions-onePage\\index.vue' /* webpackChunkName: "pages/home-it-solutions-onePage/index" */))
+const _3197656e = () => interopDefault(import('..\\pages\\home-it-solutions2\\index.vue' /* webpackChunkName: "pages/home-it-solutions2/index" */))
+const _45b8bcad = () => interopDefault(import('..\\pages\\home-marketing-startup\\index.vue' /* webpackChunkName: "pages/home-marketing-startup/index" */))
+const _d50a3136 = () => interopDefault(import('..\\pages\\home-marketing-startup-onePage\\index.vue' /* webpackChunkName: "pages/home-marketing-startup-onePage/index" */))
+const _2f4872ee = () => interopDefault(import('..\\pages\\home-nft-marketplace\\index.vue' /* webpackChunkName: "pages/home-nft-marketplace/index" */))
+const _d6977160 = () => interopDefault(import('..\\pages\\home-payment-solutions\\index.vue' /* webpackChunkName: "pages/home-payment-solutions/index" */))
+const _45b272ea = () => interopDefault(import('..\\pages\\home-saas-technology\\index.vue' /* webpackChunkName: "pages/home-saas-technology/index" */))
+const _f0a5debc = () => interopDefault(import('..\\pages\\home-saas-technology-onePage\\index.vue' /* webpackChunkName: "pages/home-saas-technology-onePage/index" */))
+const _1531836d = () => interopDefault(import('..\\pages\\home-shop-modern\\index.vue' /* webpackChunkName: "pages/home-shop-modern/index" */))
+const _2c6d7fba = () => interopDefault(import('..\\pages\\home-software-company\\index.vue' /* webpackChunkName: "pages/home-software-company/index" */))
+const _30364d72 = () => interopDefault(import('..\\pages\\home-software-company-onePage\\index.vue' /* webpackChunkName: "pages/home-software-company-onePage/index" */))
+const _0afc281b = () => interopDefault(import('..\\pages\\page-404\\index.vue' /* webpackChunkName: "pages/page-404/index" */))
+const _24a7c2a1 = () => interopDefault(import('..\\pages\\page-about-2\\index.vue' /* webpackChunkName: "pages/page-about-2/index" */))
+const _3bbcb2be = () => interopDefault(import('..\\pages\\page-about-5\\index.vue' /* webpackChunkName: "pages/page-about-5/index" */))
+const _58eae712 = () => interopDefault(import('..\\pages\\page-about-app\\index.vue' /* webpackChunkName: "pages/page-about-app/index" */))
+const _141d2452 = () => interopDefault(import('..\\pages\\page-blog-5\\index.vue' /* webpackChunkName: "pages/page-blog-5/index" */))
+const _007414fa = () => interopDefault(import('..\\pages\\page-blog-5-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-blog-5-left-sidebar/index" */))
+const _6a6468c6 = () => interopDefault(import('..\\pages\\page-blog-5-wide\\index.vue' /* webpackChunkName: "pages/page-blog-5-wide/index" */))
+const _58dd3feb = () => interopDefault(import('..\\pages\\page-blog-app\\index.vue' /* webpackChunkName: "pages/page-blog-app/index" */))
+const _efbd7934 = () => interopDefault(import('..\\pages\\page-blog-app-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-blog-app-left-sidebar/index" */))
+const _02d3b3ee = () => interopDefault(import('..\\pages\\page-blog-app-wide\\index.vue' /* webpackChunkName: "pages/page-blog-app-wide/index" */))
+const _9f1fcde4 = () => interopDefault(import('..\\pages\\page-career-details\\index.vue' /* webpackChunkName: "pages/page-career-details/index" */))
+const _4d8ff856 = () => interopDefault(import('..\\pages\\page-careers-5\\index.vue' /* webpackChunkName: "pages/page-careers-5/index" */))
+const _1f4895b2 = () => interopDefault(import('..\\pages\\page-comming-soon-5\\index.vue' /* webpackChunkName: "pages/page-comming-soon-5/index" */))
+const _4c48e2cb = () => interopDefault(import('..\\pages\\page-contact-5\\index.vue' /* webpackChunkName: "pages/page-contact-5/index" */))
+const _772b47df = () => interopDefault(import('..\\pages\\page-contact-app\\index.vue' /* webpackChunkName: "pages/page-contact-app/index" */))
+const _651db815 = () => interopDefault(import('..\\pages\\page-faq-5\\index.vue' /* webpackChunkName: "pages/page-faq-5/index" */))
+const _97dfc73a = () => interopDefault(import('..\\pages\\page-portfolio-5\\index.vue' /* webpackChunkName: "pages/page-portfolio-5/index" */))
+const _0a0a7b77 = () => interopDefault(import('..\\pages\\page-portfolio-app\\index.vue' /* webpackChunkName: "pages/page-portfolio-app/index" */))
+const _5c4d7b48 = () => interopDefault(import('..\\pages\\page-product-5\\index.vue' /* webpackChunkName: "pages/page-product-5/index" */))
+const _4bbbf1a0 = () => interopDefault(import('..\\pages\\page-product-app\\index.vue' /* webpackChunkName: "pages/page-product-app/index" */))
+const _e3ae69ca = () => interopDefault(import('..\\pages\\page-services-5\\index.vue' /* webpackChunkName: "pages/page-services-5/index" */))
+const _7e9b47a2 = () => interopDefault(import('..\\pages\\page-services-app\\index.vue' /* webpackChunkName: "pages/page-services-app/index" */))
+const _370b5a74 = () => interopDefault(import('..\\pages\\page-services-details-5\\index.vue' /* webpackChunkName: "pages/page-services-details-5/index" */))
+const _888469fa = () => interopDefault(import('..\\pages\\page-shop-5\\index.vue' /* webpackChunkName: "pages/page-shop-5/index" */))
+const _45f1fbd2 = () => interopDefault(import('..\\pages\\page-shop-app\\index.vue' /* webpackChunkName: "pages/page-shop-app/index" */))
+const _8c557d04 = () => interopDefault(import('..\\pages\\page-sign-in\\index.vue' /* webpackChunkName: "pages/page-sign-in/index" */))
+const _3fb5f8f4 = () => interopDefault(import('..\\pages\\page-single-post-5\\index.vue' /* webpackChunkName: "pages/page-single-post-5/index" */))
+const _03d118aa = () => interopDefault(import('..\\pages\\page-single-post-5-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-single-post-5-left-sidebar/index" */))
+const _95a12964 = () => interopDefault(import('..\\pages\\page-single-post-5-wide\\index.vue' /* webpackChunkName: "pages/page-single-post-5-wide/index" */))
+const _f6fbb44c = () => interopDefault(import('..\\pages\\page-single-post-app\\index.vue' /* webpackChunkName: "pages/page-single-post-app/index" */))
+const _ab308c52 = () => interopDefault(import('..\\pages\\page-single-post-app-left-sidebar\\index.vue' /* webpackChunkName: "pages/page-single-post-app-left-sidebar/index" */))
+const _51e2c50c = () => interopDefault(import('..\\pages\\page-single-post-app-wide\\index.vue' /* webpackChunkName: "pages/page-single-post-app-wide/index" */))
+const _b2247936 = () => interopDefault(import('..\\pages\\page-single-project-5\\index.vue' /* webpackChunkName: "pages/page-single-project-5/index" */))
+const _87cb2c0e = () => interopDefault(import('..\\pages\\page-single-project-app\\index.vue' /* webpackChunkName: "pages/page-single-project-app/index" */))
+const _ff719fe6 = () => interopDefault(import('..\\pages\\rtl-home-app-landing-onePage\\index.vue' /* webpackChunkName: "pages/rtl-home-app-landing-onePage/index" */))
+const _3861488a = () => interopDefault(import('..\\pages\\rtl-home-marketing-startup\\index.vue' /* webpackChunkName: "pages/rtl-home-marketing-startup/index" */))
+const _f107737c = () => interopDefault(import('..\\pages\\rtl-home-marketing-startup-onePage\\index.vue' /* webpackChunkName: "pages/rtl-home-marketing-startup-onePage/index" */))
+const _0c136fc3 = () => interopDefault(import('..\\pages\\rtl-page-about\\index.vue' /* webpackChunkName: "pages/rtl-page-about/index" */))
+const _f3de427c = () => interopDefault(import('..\\pages\\rtl-page-blog\\index.vue' /* webpackChunkName: "pages/rtl-page-blog/index" */))
+const _4167dbd0 = () => interopDefault(import('..\\pages\\rtl-page-contact\\index.vue' /* webpackChunkName: "pages/rtl-page-contact/index" */))
+const _b483efb0 = () => interopDefault(import('..\\pages\\rtl-page-portfolio\\index.vue' /* webpackChunkName: "pages/rtl-page-portfolio/index" */))
+const _17fceba1 = () => interopDefault(import('..\\pages\\rtl-page-product\\index.vue' /* webpackChunkName: "pages/rtl-page-product/index" */))
+const _14d08386 = () => interopDefault(import('..\\pages\\rtl-page-services\\index.vue' /* webpackChunkName: "pages/rtl-page-services/index" */))
+const _3b6a96ee = () => interopDefault(import('..\\pages\\rtl-page-shop\\index.vue' /* webpackChunkName: "pages/rtl-page-shop/index" */))
+const _0264ce6a = () => interopDefault(import('..\\pages\\rtl-page-single-post\\index.vue' /* webpackChunkName: "pages/rtl-page-single-post/index" */))
+const _c193cfe0 = () => interopDefault(import('..\\pages\\rtl-page-single-project\\index.vue' /* webpackChunkName: "pages/rtl-page-single-project/index" */))
+const _66847e95 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -87,279 +87,279 @@ export const routerOptions = {
 
   routes: [{
     path: "/home-app-landing",
-    component: _23554282,
+    component: _668a37b8,
     name: "home-app-landing"
   }, {
     path: "/home-app-landing-onePage",
-    component: _c5b55112,
+    component: _d4dbb120,
     name: "home-app-landing-onePage"
   }, {
     path: "/home-cloud-hosting",
-    component: _2e2a8728,
+    component: _6c8d05e1,
     name: "home-cloud-hosting"
   }, {
     path: "/home-crypto",
-    component: _ff1c1f2e,
+    component: _5c14c060,
     name: "home-crypto"
   }, {
     path: "/home-cyber-security",
-    component: _11ce7116,
+    component: _c0886d06,
     name: "home-cyber-security"
   }, {
     path: "/home-data-analysis",
-    component: _1f3321ea,
+    component: _2ec8edc4,
     name: "home-data-analysis"
   }, {
     path: "/home-digital-agency",
-    component: _16b96ba0,
+    component: _fadebad2,
     name: "home-digital-agency"
   }, {
     path: "/home-digital-agency-onePage",
-    component: _4a8d41e8,
+    component: _6da97962,
     name: "home-digital-agency-onePage"
   }, {
     path: "/home-freelance-personal",
-    component: _7aa63f8c,
+    component: _27d30c73,
     name: "home-freelance-personal"
   }, {
     path: "/home-help-desk",
-    component: _cc291976,
+    component: _f5779304,
     name: "home-help-desk"
   }, {
     path: "/home-it-solutions",
-    component: _03fcc8d2,
+    component: _db39e20e,
     name: "home-it-solutions"
   }, {
     path: "/home-it-solutions-onePage",
-    component: _72d6fe8a,
+    component: _eff7a49e,
     name: "home-it-solutions-onePage"
   }, {
     path: "/home-it-solutions2",
-    component: _ae5c62e0,
+    component: _3197656e,
     name: "home-it-solutions2"
   }, {
     path: "/home-marketing-startup",
-    component: _0e964274,
+    component: _45b8bcad,
     name: "home-marketing-startup"
   }, {
     path: "/home-marketing-startup-onePage",
-    component: _0035b62c,
+    component: _d50a3136,
     name: "home-marketing-startup-onePage"
   }, {
     path: "/home-nft-marketplace",
-    component: _8ec3dbe0,
+    component: _2f4872ee,
     name: "home-nft-marketplace"
   }, {
     path: "/home-payment-solutions",
-    component: _5d91cd17,
+    component: _d6977160,
     name: "home-payment-solutions"
   }, {
     path: "/home-saas-technology",
-    component: _15f4be71,
+    component: _45b272ea,
     name: "home-saas-technology"
   }, {
     path: "/home-saas-technology-onePage",
-    component: _328ae529,
+    component: _f0a5debc,
     name: "home-saas-technology-onePage"
   }, {
     path: "/home-shop-modern",
-    component: _c606ab18,
+    component: _1531836d,
     name: "home-shop-modern"
   }, {
     path: "/home-software-company",
-    component: _6474a513,
+    component: _2c6d7fba,
     name: "home-software-company"
   }, {
     path: "/home-software-company-onePage",
-    component: _3dd9ec6a,
+    component: _30364d72,
     name: "home-software-company-onePage"
   }, {
     path: "/page-404",
-    component: _09e64622,
+    component: _0afc281b,
     name: "page-404"
   }, {
     path: "/page-about-2",
-    component: _45b58528,
+    component: _24a7c2a1,
     name: "page-about-2"
   }, {
     path: "/page-about-5",
-    component: _5cca7545,
+    component: _3bbcb2be,
     name: "page-about-5"
   }, {
     path: "/page-about-app",
-    component: _6d9223d9,
+    component: _58eae712,
     name: "page-about-app"
   }, {
     path: "/page-blog-5",
-    component: _b7248320,
+    component: _141d2452,
     name: "page-blog-5"
   }, {
     path: "/page-blog-5-left-sidebar",
-    component: _08074501,
+    component: _007414fa,
     name: "page-blog-5-left-sidebar"
   }, {
     path: "/page-blog-5-wide",
-    component: _5298f2a4,
+    component: _6a6468c6,
     name: "page-blog-5-wide"
   }, {
     path: "/page-blog-app",
-    component: _5987ce44,
+    component: _58dd3feb,
     name: "page-blog-app"
   }, {
     path: "/page-blog-app-left-sidebar",
-    component: _10aee4a6,
+    component: _efbd7934,
     name: "page-blog-app-left-sidebar"
   }, {
     path: "/page-blog-app-wide",
-    component: _7f98b160,
+    component: _02d3b3ee,
     name: "page-blog-app-wide"
   }, {
     path: "/page-career-details",
-    component: _2282c0a7,
+    component: _9f1fcde4,
     name: "page-career-details"
   }, {
     path: "/page-careers-5",
-    component: _6237351d,
+    component: _4d8ff856,
     name: "page-careers-5"
   }, {
     path: "/page-comming-soon-5",
-    component: _626e5cc0,
+    component: _1f4895b2,
     name: "page-comming-soon-5"
   }, {
     path: "/page-contact-5",
-    component: _60f01f92,
+    component: _4c48e2cb,
     name: "page-contact-5"
   }, {
     path: "/page-contact-app",
-    component: _02132234,
+    component: _772b47df,
     name: "page-contact-app"
   }, {
     path: "/page-faq-5",
-    component: _51f8705c,
+    component: _651db815,
     name: "page-faq-5"
   }, {
     path: "/page-portfolio-5",
-    component: _3bdb436a,
+    component: _97dfc73a,
     name: "page-portfolio-5"
   }, {
     path: "/page-portfolio-app",
-    component: _68b00684,
+    component: _0a0a7b77,
     name: "page-portfolio-app"
   }, {
     path: "/page-product-5",
-    component: _32ff01ba,
+    component: _5c4d7b48,
     name: "page-product-5"
   }, {
     path: "/page-product-app",
-    component: _61ed2e37,
+    component: _4bbbf1a0,
     name: "page-product-app"
   }, {
     path: "/page-services-5",
-    component: _0e692734,
+    component: _e3ae69ca,
     name: "page-services-5"
   }, {
     path: "/page-services-app",
-    component: _324c1608,
+    component: _7e9b47a2,
     name: "page-services-app"
   }, {
     path: "/page-services-details-5",
-    component: _374d85df,
+    component: _370b5a74,
     name: "page-services-details-5"
   }, {
     path: "/page-shop-5",
-    component: _6a3a1b9c,
+    component: _888469fa,
     name: "page-shop-5"
   }, {
     path: "/page-shop-app",
-    component: _449cdf20,
+    component: _45f1fbd2,
     name: "page-shop-app"
   }, {
     path: "/page-sign-in",
-    component: _4a39f7f6,
+    component: _8c557d04,
     name: "page-sign-in"
   }, {
     path: "/page-single-post-5",
-    component: _bc7af666,
+    component: _3fb5f8f4,
     name: "page-single-post-5"
   }, {
     path: "/page-single-post-5-left-sidebar",
-    component: _2a930478,
+    component: _03d118aa,
     name: "page-single-post-5-left-sidebar"
   }, {
     path: "/page-single-post-5-wide",
-    component: _08029e67,
+    component: _95a12964,
     name: "page-single-post-5-wide"
   }, {
     path: "/page-single-post-app",
-    component: _54c47161,
+    component: _f6fbb44c,
     name: "page-single-post-app"
   }, {
     path: "/page-single-post-app-left-sidebar",
-    component: _2926bca0,
+    component: _ab308c52,
     name: "page-single-post-app-left-sidebar"
   }, {
     path: "/page-single-post-app-wide",
-    component: _7c3d235a,
+    component: _51e2c50c,
     name: "page-single-post-app-wide"
   }, {
     path: "/page-single-project-5",
-    component: _42162e84,
+    component: _b2247936,
     name: "page-single-project-5"
   }, {
     path: "/page-single-project-app",
-    component: _0eed9d12,
+    component: _87cb2c0e,
     name: "page-single-project-app"
   }, {
     path: "/rtl-home-app-landing-onePage",
-    component: _2b250494,
+    component: _ff719fe6,
     name: "rtl-home-app-landing-onePage"
   }, {
     path: "/rtl-home-marketing-startup",
-    component: _b02eda5e,
+    component: _3861488a,
     name: "rtl-home-marketing-startup"
   }, {
     path: "/rtl-home-marketing-startup-onePage",
-    component: _67145989,
+    component: _f107737c,
     name: "rtl-home-marketing-startup-onePage"
   }, {
     path: "/rtl-page-about",
-    component: _20baac8a,
+    component: _0c136fc3,
     name: "rtl-page-about"
   }, {
     path: "/rtl-page-blog",
-    component: _f28925ca,
+    component: _f3de427c,
     name: "rtl-page-blog"
   }, {
     path: "/rtl-page-contact",
-    component: _6d99fa52,
+    component: _4167dbd0,
     name: "rtl-page-contact"
   }, {
     path: "/rtl-page-portfolio",
-    component: _675b896f,
+    component: _b483efb0,
     name: "rtl-page-portfolio"
   }, {
     path: "/rtl-page-product",
-    component: _c06fdab0,
+    component: _17fceba1,
     name: "rtl-page-product"
   }, {
     path: "/rtl-page-services",
-    component: _f32b8542,
+    component: _14d08386,
     name: "rtl-page-services"
   }, {
     path: "/rtl-page-shop",
-    component: _3c152547,
+    component: _3b6a96ee,
     name: "rtl-page-shop"
   }, {
     path: "/rtl-page-single-post",
-    component: _61e0375c,
+    component: _0264ce6a,
     name: "rtl-page-single-post"
   }, {
     path: "/rtl-page-single-project",
-    component: _1bed69ae,
+    component: _c193cfe0,
     name: "rtl-page-single-project"
   }, {
     path: "/",
-    component: _37b4295c,
+    component: _66847e95,
     name: "index"
   }],
 

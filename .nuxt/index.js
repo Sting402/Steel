@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_vuescrollto_c9db68de from 'nuxt_plugin_vuescrollto_c9db68de' // Source: .\\vue-scrollto.js (mode: 'client')
+import nuxt_plugin_vuescrollto_4ce0ff26 from 'nuxt_plugin_vuescrollto_4ce0ff26' // Source: .\\vue-scrollto.js (mode: 'client')
 import nuxt_plugin_vueAwesomeSwiper_282933cc from 'nuxt_plugin_vueAwesomeSwiper_282933cc' // Source: ..\\plugins\\vueAwesomeSwiper.js (mode: 'all')
 import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ..\\plugins\\lightGallery.client.js (mode: 'client')
 import nuxt_plugin_vueRangeSlider_4db07729 from 'nuxt_plugin_vueRangeSlider_4db07729' // Source: ..\\plugins\\vueRangeSlider.js (mode: 'client')
@@ -181,8 +181,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_vuescrollto_c9db68de === 'function') {
-    await nuxt_plugin_vuescrollto_c9db68de(app.context, inject)
+  if (process.client && typeof nuxt_plugin_vuescrollto_4ce0ff26 === 'function') {
+    await nuxt_plugin_vuescrollto_4ce0ff26(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vueAwesomeSwiper_282933cc === 'function') {
