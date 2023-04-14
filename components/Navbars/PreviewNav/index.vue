@@ -35,27 +35,27 @@
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
+                    <NuxtLink to="/home-app-landing-onePage" class="subLink">
                       公司沿革
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
+                    <NuxtLink to="/home-cloud-hosting" class="subLink">
                       經營理念
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
+                    <NuxtLink to="/home-crypto" class="subLink">
                       品質政策
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
+                    <NuxtLink to="/home-cyber-security" class="subLink">
                       作業流程
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
+                    <NuxtLink to="/home-data-analysis" class="subLink">
                       生產作業導覽
                     </NuxtLink>
                   </li>

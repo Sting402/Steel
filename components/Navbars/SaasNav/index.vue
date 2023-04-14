@@ -13,7 +13,7 @@
         <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
           <li class="nav-item dropdown" @mousemove="handleMouseMove" @mouseleave="handleMouseLeave">
             <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Homes
+              公司沿革
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
               <li><NuxtLink to="/" class="dropdown-item">Landing Preview</NuxtLink></li>
