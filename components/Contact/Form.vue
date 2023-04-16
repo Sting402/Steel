@@ -2,13 +2,13 @@
   <section :class="`contact section-padding pt-${styleType === '4' ? '0':'50'} style-6`">
     <template v-if="styleType === '5'">
       <div class="section-head text-center mb-100 style-5">
-        <h2 class="mb-20">{{ rtl ? 'يسعدنا' : 'Get In' }} <span>{{ rtl ? 'تواصلك' : 'Touch' }}</span> {{ rtl && 'معنا' }}</h2>
-        <p>{{ rtl ? 'سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة' : 'We will contact again after receive your request in 24h' }}</p>
+        <h2 class="mb-20">{{ rtl ? 'يسعدنا' : '聯絡' }} <span>{{ rtl ? 'تواصلك' : '我們' }}</span> {{ rtl && 'معنا' }}</h2>
+        <p>{{ rtl ? 'سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة' : '您也可以透過以下聯絡資料，直接聯絡我們' }}</p>
       </div>
       <div class="text-center mb-100">
-        <h2 class="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">{{ contactInfoData.phone }}</h2>
-        <h4 class="fw-normal mb-20 color-000">{{ contactInfoData.email }}</h4>
-        <h4 class="fw-normal mb-10 color-000">{{ contactInfoData.address }}</h4>
+        <h2 class="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">電話:{{ contactInfoData.phone }}</h2>
+        <h4 class="fw-normal mb-20 color-000">傳真:{{ contactInfoData.fax }}</h4>
+        <h4 class="fw-normal mb-10 color-000">廠址: {{ contactInfoData.address }}</h4>
       </div>
     </template>
     <div class="container">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group mb-20">
-                    <input type="text" name="email" class="form-control" :placeholder="rtl ? 'البريد الالكترونى *' : 'Email Address *'" v-model="formData.email" />
+                    <input type="text" name="email" class="form-control" :placeholder="rtl ? 'البريد الالكترونى *' : 'email Address *'" v-model="formData.email" />
                   </div>
                 </div>
                 <div class="col-lg-6">
