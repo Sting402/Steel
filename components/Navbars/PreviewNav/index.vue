@@ -30,11 +30,6 @@
               <li class="dropdown-items">
                 <ul class="subDropDown">
                   <li>
-                    <NuxtLink to="page-blog-5" class="subLink">
-                      公司介紹
-                    </NuxtLink>
-                  </li>
-                  <li>
                     <NuxtLink to="/home-app-landing-onePage" class="subLink">
                       公司沿革
                     </NuxtLink>
