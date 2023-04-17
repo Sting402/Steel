@@ -5,14 +5,24 @@
         <div class="col-lg-3 col-sm-6">
           <div class="items">
             <div class="title">
-              Iteck - 1st eCommerce Dashboard
+              公司介紹
             </div>
-            <small class="text">
-              Over 25 years working in IT services developing software applications and mobile apps for
-              clients all over the world. For your very specific industry, <br /> we have highly-tailored IT
-              solutions.
+            <small class="footer-text">
+              宇盛產品範圍涵蓋
+              <ul>
+                <li>
+                  電控 / 儀控外箱
+                </li>
+                <li>
+                  電子通訊產品及機櫃
+                </li>
+                <li>
+                  CNC 加工機械
+                </li>
+              </ul>
+              面板及零配件等。
             </small>
-            <div class="socail-icons">
+            <!-- <div class="socail-icons">
               <a href="https://twitter.com/" rel="noreferrer" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2" target="_blank">
                 <i class="fab fa-twitter"></i>
               </a>
@@ -22,13 +32,13 @@
               <a href="https://instagram.com/" rel="noreferrer" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="items">
             <div class="title">
-              Information
+              公司資訊
             </div>
             <small class="text mb-10 d-block">
               {{ footerData.address.address1 }} <br /> {{ footerData.address.address2 }}
@@ -44,7 +54,7 @@
         <div class="col-lg-2">
           <div class="items">
             <div class="title">
-              Useful Links
+              相關連結
             </div>
             <ul>
               <li v-for="(link, index) in footerData.usefulLinks" :key="index">
@@ -56,7 +66,7 @@
         <div class="col-lg-2">
           <div class="items">
             <div class="title">
-              Resource
+              相關連結
             </div>
             <ul>
               <li v-for="(link, index) in footerData.resources" :key="index">
@@ -75,7 +85,7 @@
           </div>
           <div class="col-lg-6">
             <small class="small">
-              © 2022 Copyrights by <a href="#" class="fw-bold text-decoration-underline">Iteck Co.</a> All Rights Reserved. Designed by <a href="https://themeforest.net/user/themescamp" class="fw-bold text-decoration-underline">ThemesCamp</a>
+              © 2006 Copyright by 宇盛精密鈑金工業有限公司 all right reserved
             </small>
           </div>
         </div>
@@ -95,3 +105,7 @@ export default {
   },
 }
 </script>
+<style scoped>
+
+
+</style>

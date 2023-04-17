@@ -1,23 +1,20 @@
 {
   "address": {
-    "address1": "223 Thatcher Road St, Brookly,",
-    "address2": "Manhattan, NY 10463, US"
+    "address1": "708台南市",
+    "address2": "科技五路58號"
   },
-  "phone": "+031 5689 89 98",
-  "email": "contact@Itecksolution.co",
+  "phone": "+886-6-384-2699",
+  "email": "ys.online@msa.hinet.net",
   "usefulLinks": [
-    { "link": "/home-saas-technology", "title": "Home" },
-    { "link": "/page-about-5", "title": "About Iteck" },
-    { "link": "/page-portfolio-5", "title": "Projects" },
-    { "link": "/page-product-5", "title": "product" },
-    { "link": "/page-blog-5", "title": "Blog" },
-    { "link": "/page-contact-5", "title": "Contact" }
+    { "link": "/", "title": "首頁" },
+    { "link": "/ys-about", "title": "公司介紹" },
+    { "link": "/ys-quality", "title": "品質政策" },
+    { "link": "/ys-equipment", "title": "設備介紹" }
   ],
   "resources": [
-    { "link": "#", "title": "Online Documentation" },
-    { "link": "#", "title": "Roadmap" },
-    { "link": "#", "title": "Intergrations" },
-    { "link": "#", "title": "FAQs" },
-    { "link": "#", "title": "Help Center" }
+    { "link": "/ys-product", "title": "產品介紹" },
+    { "link": "/ys-contact", "title": "聯絡我們" },
+    { "link": "/ys-map", "title": "公司地圖" },
+    { "link": "/ys-employee", "title": "人才招募" }
   ]
 }
