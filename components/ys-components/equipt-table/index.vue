@@ -16,10 +16,66 @@ export default {};
           </thead>
           <tbody>
             <tr>
-              <th>CNC 電腦沖床</th>
+              <th>{{ $t('equipmentpage.name1') }}</th>
               <td>AMADA VIROS 357 Queen</td>
               <td class="amount">1</td>
             </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name2') }}</th>
+              <td>AMADA LC-1212</td>
+              <td class="amount">1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name3') }}</th>
+              <td>AMADA RG80&RG60</td>
+              <td class="amount">1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name4') }}</th>
+              <td></td>
+              <td class="amount">5</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name5') }}</th>
+              <td></td>
+              <td class="amount">5</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name6') }}</th>
+              <td></td>
+              <td class="amount">2</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name7') }}</th>
+              <td></td>
+              <td class="amount">2</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name8') }}</th>
+              <td></td>
+              <td class="amount">1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name9') }}</th>
+              <td>{{ $t('equipmentpage.name9-1') }}</td>
+              <td class="amount">1 / 1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name10') }}</th>
+              <td>AMADA VIROS 357 Queen</td>
+              <td class="amount">1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name11') }}</th>
+              <td></td>
+              <td class="amount">1</td>
+            </tr>
+            <tr>
+              <th>{{ $t('equipmentpage.name12') }}</th>
+              <td></td>
+              <td class="amount">1</td>
+            </tr>
+            
           </tbody>
         </table>
       </div>
