@@ -16,52 +16,58 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <form action="contact.php" class="form" method="post" @submit="handleFormSubmit">
-              <p class="text-center text-danger fs-12px mb-30">{{ rtl ? 'الحقل اللذى يحتوى على هذة العلامة اجبارى *' : 'The field is required mark as *' }}</p>
+              <p class="text-center text-danger fs-12px mb-30">{{ rtl ? 'الحقل اللذى يحتوى على هذة العلامة اجبارى *' : ' * 星號為必填必選資料' }}</p>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="form-group mb-20">
-                    <input type="text" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : 'Name'" v-model="formData.name" />
+                    <input type="text" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : '寄件人姓名 *'" v-model="formData.name" />
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group mb-20">
-                    <input type="text" name="email" class="form-control" :placeholder="rtl ? 'البريد الالكترونى *' : 'email Address *'" v-model="formData.email" />
+                    <input type="text" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : '公司名稱 *'" v-model="formData.company" />
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group mb-20">
-                    <input type="text" name="phone" class="form-control" :placeholder="rtl ? 'رقم الهاتف (اختياري)' : 'Phone Number (option)'" v-model="formData.phone" />
+                    <input type="number" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : '連絡電話 *'" v-model="formData.mobile" />
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group mb-20">
-                    <input type="text" name="website" class="form-control" :placeholder="rtl ? 'رابط موقعك (اختيارى)' : 'Your Website (option)'" v-model="formData.website" />
+                    <input type="text" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : '手機號碼'" v-model="formData.phone" />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group mb-20">
+                    <input type="text" name="name" class="form-control" :placeholder="rtl ? 'الاسم' : '聯絡地址'" v-model="formData.address" />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group mb-20">
+                    <input type="text" name="email" class="form-control" :placeholder="rtl ? 'البريد الالكترونى *' : '電子郵件 *'" v-model="formData.email" />
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mb-20">
-                    <select class="form-select" :value="rtl ? 'كيف يمكننا مساعدتك ؟' : 'How can we help you?'" name="option" @change="handleFormOptionChange">
-                      <option value="how can we help">{{ rtl ? 'كيف يمكننا مساعدتك ؟' : 'How can we help you?' }}</option>
-                      <option value="option 1">{{ rtl ? 'الاختيار الاول' : 'option 1' }}</option>
-                      <option value="option 2">{{ rtl ? 'الاختيار الثاني' : 'option 2' }}</option>
+                    <select class="form-select" :value="rtl ? 'كيف يمكننا مساعدتك ؟' : '問題選項 *'" name="option" @change="handleFormOptionChange">
+                      <option value="問題選項">{{ rtl ? 'كيف يمكننا مساعدتك ؟' : '問題選項' }}</option>
+                      <option value="option 1">{{ rtl ? 'الاختيار الاول' : '產品問題' }}</option>
+                      <option value="option 2">{{ rtl ? 'الاختيار الثاني' : '其他問題' }}</option>
                     </select>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group">
-                    <textarea rows="10" name="message" class="form-control" :placeholder="rtl ? 'كيف يمكننا مساعدتك ؟' : 'How can we help you?'" v-model="formData.message"></textarea>
+                    <textarea rows="10" name="message" class="form-control" :placeholder="rtl ? 'كيف يمكننا مساعدتك ؟' : '訊息內容 *'" v-model="formData.message"></textarea>
                   </div>
                 </div>
                 <div class="col-lg-12 text-center">
                   <div class="form-check d-inline-flex mt-30 mb-30">
-                    <input class="form-check-input me-2 mt-0" type="checkbox" value="" id="flexCheckDefault" />
-                    <label class="form-check-label small" for="flexCheckDefault">
-                      {{ rtl ? 'من خلال الإرسال ، أوافق على' : 'By submitting, i’m agreed to the' }} <a href="#" class="text-decoration-underline">{{ rtl ? 'الشروط و الاحكام' : 'Terms & Conditons' }}</a>
-                    </label>
                   </div>
                 </div>
                 <div class="col-lg-12 text-center">
-                  <input type="submit" :value="rtl ? 'ارسل طلبك' : 'Send Your Request'" :class="`btn rounded-pill ${styleType === '4' ? 'bg-blue4 text-white fs-12px' : 'blue5-3Dbutn hover-blue2 sm-butn'} fw-bold text-light`" />
+                  <input type="submit" :value="rtl ? 'ارسل طلبك' : '填好送出'" :class="`btn rounded-pill ${styleType === '4' ? 'bg-blue4 text-white fs-12px' : 'blue5-3Dbutn hover-blue2 sm-butn'} fw-bold text-light`" />
                 </div>
               </div>
             </form>
