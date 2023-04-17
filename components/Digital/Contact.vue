@@ -104,7 +104,11 @@ export default {
 
       formValues.append('name', this.formData.name);
       formValues.append('email', this.formData.email);
+      formValues.append('company', this.formData.company);
+      formValues.append('mobile', this.formData.mobile);
+      formValues.append('phone', this.formData.phone);
       formValues.append('option', this.formData.option);
+      formValues.append('address', this.formData.address);
       formValues.append('message', this.formData.message);
       
       const res = await fetch('/contact.php', {

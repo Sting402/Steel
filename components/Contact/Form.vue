@@ -96,9 +96,11 @@ export default {
       formData: {
         name: "",
         email: "",
+        company: "",
+        mobile: "",
         phone: "",
-        website: "",
         option: "",
+        address: "",
         message: ""
       }
     }
@@ -115,7 +117,9 @@ export default {
       formValues.append('email', this.formData.email);
       formValues.append('option', this.formData.option);
       formValues.append('phone', this.formData.phone);
-      formValues.append('website', this.formData.website);
+      formValues.append('website', this.formData.company);
+      formValues.append('website', this.formData.address);
+      formValues.append('website', this.formData.mobile);
       formValues.append('message', this.formData.message);
       
       const res = await fetch('/contact.php', {
