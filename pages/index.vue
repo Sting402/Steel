@@ -13,12 +13,14 @@
     <AllFeatures />
     <Testimonials />
     <CallToAction />
+    <Footer/>
   </div>
 </template>
 
 <script>
 //首頁
 import Header from '../components/Preview/Header';
+import Footer from "../components/Saas/Footer";
 import Features from '../components/Preview/Features';
 import Demos from '../components/Preview/Demos';
 import InnerPages from '../components/Preview/InnerPages';
@@ -47,6 +49,7 @@ export default {
     AllFeatures,
     Testimonials,
     CallToAction,
+    Footer
   },
   head() {
     return {

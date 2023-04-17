@@ -8,6 +8,8 @@
       <Map />
       
     </main>
+    <ScrollToTop />
+    <Footer :noWave="true" />
   </div>
 </template>
 
@@ -18,6 +20,7 @@ import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
 import Navbar from '../../components/Navbars/PreviewNav';
 import Map from '../../components/Contact/Map';
+import Footer from "../../components/Saas/Footer";
 
 
 export default {
@@ -25,7 +28,8 @@ export default {
     PreLoader,
     ScrollToTop,
     Navbar,
-    Map
+    Map,
+    Footer
     
   },
   head() {

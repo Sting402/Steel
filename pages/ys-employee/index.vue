@@ -8,6 +8,8 @@
       
       
     </main>
+    <ScrollToTop />
+    <Footer :noWave="true" />
   </div>
 </template>
 
@@ -17,6 +19,7 @@ import navbarScrollEffect from "../../common/navbarScrollEffect";
 import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
 import Navbar from '../../components/Navbars/PreviewNav';
+import Footer from "../../components/Saas/Footer";
 
 
 
@@ -25,6 +28,7 @@ export default {
     PreLoader,
     ScrollToTop,
     Navbar,
+    Footer
     
     
   },

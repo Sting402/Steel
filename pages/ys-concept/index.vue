@@ -5,17 +5,19 @@
     
     <main class="contact-page style-5">
       
-      
-      
+  
     </main>
+    <ScrollToTop />
+    <Footer :noWave="true" />
   </div>
 </template>
 
 <script>
 //經營理念
-import navbarScrollEffect from "../../common/navbarScrollEffect";
-import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
+import navbarScrollEffect from "../../common/navbarScrollEffect";
+import Footer from "../../components/Saas/Footer";
+import PreLoader from "../../components/PreLoader/index.vue";
 import Navbar from '../../components/Navbars/PreviewNav';
 
 
@@ -25,6 +27,7 @@ export default {
     PreLoader,
     ScrollToTop,
     Navbar,
+    Footer,
     
     
   },
