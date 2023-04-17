@@ -4,7 +4,7 @@
     <Navbar ref="navbarRef" />
     
     <main class="contact-page style-5">
-      <h1>設備介紹</h1>
+      
       
       
     </main>
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+//設備介紹
 import navbarScrollEffect from "../../common/navbarScrollEffect";
 import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";

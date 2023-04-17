@@ -1,5 +1,7 @@
 <template>
+  
   <div>
+    
     <PreLoader />
     <Navbar ref="navbarRef" />
     <main>
@@ -10,6 +12,7 @@
 </template>
 
 <script>
+//首頁
 import navbarScrollEffect from "../common/navbarScrollEffect";
 import PreLoader from "../components/PreLoader/index.vue";
 import ScrollToTop from "../components/ScrollToTop/index.vue";
