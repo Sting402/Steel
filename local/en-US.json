@@ -1,19 +1,19 @@
 {
     "header":{
-    "about":"About Us",
-    "quality":"Quality Policy",
-    "equipment":"Equipment",
-    "product":"Products",
-    "contact":"Contact Us",
-    "map":"Location",
-    "employee":"Careers"
+        "about":"About Us",
+        "quality":"Quality Policy",
+        "equipment":"Equipment",
+        "product":"Products",
+        "contact":"Contact Us",
+        "map":"Location",
+        "employee":"Careers"
     },
     "about":{
-    "legacy":"Company History",
-    "concept":"Management Concept",
-    "policy":"Quality Policy",
-    "flow":"Operation Process",
-    "production":"Production Operation Guide"
+        "legacy":"Company History",
+        "concept":"Management Concept",
+        "policy":"Quality Policy",
+        "flow":"Operation Process",
+        "production":"Production Operation Guide"
     },
     "aboutpage":{
         "p1":"Yusheng's product range covers metal enclosures, panels, and accessories for electronic control/instrumentation cabinets, electronic communication products and cabinets, broadcasting systems, food and beverage machines, sports equipment accessories, electronic gaming machines, coin-operated machines, CNC machining equipment, and more.",
