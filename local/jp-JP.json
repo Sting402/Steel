@@ -1,19 +1,19 @@
 {
     "header": {
-    "about": "会社紹介",
-    "quality": "品質方針",
-    "equipment": "設備紹介",
-    "product": "製品紹介",
-    "contact": "お問い合わせ",
-    "map": "会社地図",
-    "employee": "採用情報"
+        "about": "会社紹介",
+        "quality": "品質方針",
+        "equipment": "設備紹介",
+        "product": "製品紹介",
+        "contact": "お問い合わせ",
+        "map": "会社地図",
+        "employee": "採用情報"
     },
     "about": {
-    "legacy": "会社沿革",
-    "concept": "経営理念",
-    "policy": "品質方針",
-    "flow": "作業フロー",
-    "production": "生産作業ガイド"
+        "legacy": "会社沿革",
+        "concept": "経営理念",
+        "policy": "品質方針",
+        "flow": "作業フロー",
+        "production": "生産作業ガイド"
     },
     "aboutpage": {
         "p1": "宇盛の製品は、制御ボックス、電子通信製品やキャビネット、信用/放送システム、飲料製造機、スポーツ用品部品、電子ゲーム機、コイン交換機、CNC加工機などの金属ケース、パネル、および部品などを含む。",
