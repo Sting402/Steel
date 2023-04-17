@@ -36,10 +36,11 @@ export default {
     '~/styles/globals.css',
     '~/styles/preloader.css',
   ],
-
+  
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     "~/plugins/vueAwesomeSwiper.js",
+    '~/plugins/i18n.js',
     { src: "~/plugins/lightGallery.client.js", ssr: false },
     { src: "~/plugins/vueRangeSlider.js", ssr: false }
   ],

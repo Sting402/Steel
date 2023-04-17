@@ -1,5 +1,5 @@
 import Vue from 'vue'
-
+import Vuex from 'vuex'
 import Meta from 'vue-meta'
 import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
@@ -9,11 +9,13 @@ import NuxtError from './components/nuxt-error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
+import { createStore } from './store.js'
 
 /* Plugins */
 
 import nuxt_plugin_vuescrollto_4ce0ff26 from 'nuxt_plugin_vuescrollto_4ce0ff26' // Source: .\\vue-scrollto.js (mode: 'client')
 import nuxt_plugin_vueAwesomeSwiper_282933cc from 'nuxt_plugin_vueAwesomeSwiper_282933cc' // Source: ..\\plugins\\vueAwesomeSwiper.js (mode: 'all')
+import nuxt_plugin_i18n_1fba523a from 'nuxt_plugin_i18n_1fba523a' // Source: ..\\plugins\\i18n.js (mode: 'all')
 import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ..\\plugins\\lightGallery.client.js (mode: 'client')
 import nuxt_plugin_vueRangeSlider_4db07729 from 'nuxt_plugin_vueRangeSlider_4db07729' // Source: ..\\plugins\\vueRangeSlider.js (mode: 'client')
 
@@ -57,9 +59,26 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
+const originalRegisterModule = Vuex.Store.prototype.registerModule
+
+function registerModule (path, rawModule, options = {}) {
+  const preserveState = process.client && (
+    Array.isArray(path)
+      ? !!path.reduce((namespacedState, path) => namespacedState && namespacedState[path], this.state)
+      : path in this.state
+  )
+  return originalRegisterModule.call(this, path, rawModule, { preserveState, ...options })
+}
+
 async function createApp(ssrContext, config = {}) {
-  const store = null
+  const store = createStore(ssrContext)
   const router = await createRouter(ssrContext, config, { store })
+
+  // Add this.$router into store actions/mutations
+  store.$router = router
+
+  // Fix SSR caveat https://github.com/nuxt/nuxt.js/issues/3757#issuecomment-414689141
+  store.registerModule = registerModule
 
   // Create Root instance
 
@@ -68,6 +87,7 @@ async function createApp(ssrContext, config = {}) {
   const app = {
     head: {"title":"Iteck","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"httpEquiv":"X-UA-Compatible","content":"IE=edge"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Iteck - Multi-Purpose Vue.js Nuxt.js Template"},{"name":"keywords","content":"Vue Nuxtjs Template Iteck Multi-Purpose themeforest"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"shortcut icon","sizes":"16x16","href":"\u002Fassets\u002Fimg\u002Ffav.png"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=El+Messiri:wght@400;500;600;700&display=swap"}],"script":[{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fpace.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fbootstrap.bundle.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fmixitup.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fwow.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fhtml5shiv.min.js"},{"src":"\u002Fassets\u002Fjs\u002Fmain.js","ssr":false}],"style":[]},
 
+    store,
     router,
     nuxt: {
       defaultTransition,
@@ -112,6 +132,9 @@ async function createApp(ssrContext, config = {}) {
     ...App
   }
 
+  // Make app available into store via this.app
+  store.app = app
+
   const next = ssrContext ? ssrContext.next : location => app.router.push(location)
   // Resolve route
   let route
@@ -124,6 +147,7 @@ async function createApp(ssrContext, config = {}) {
 
   // Set context to app.context
   await setContext(app, {
+    store,
     route,
     next,
     error: app.nuxt.error.bind(app),
@@ -151,6 +175,9 @@ async function createApp(ssrContext, config = {}) {
       app.context[key] = value
     }
 
+    // Add into store
+    store[key] = app[key]
+
     // Check if plugin not already installed
     const installKey = '__nuxt_' + key + '_installed__'
     if (Vue[installKey]) {
@@ -172,6 +199,13 @@ async function createApp(ssrContext, config = {}) {
   // Inject runtime config as $config
   inject('config', config)
 
+  if (process.client) {
+    // Replace store state before plugins execution
+    if (window.__NUXT__ && window.__NUXT__.state) {
+      store.replaceState(window.__NUXT__.state)
+    }
+  }
+
   // Add enablePreview(previewData = {}) in context for plugins
   if (process.static && process.client) {
     app.context.enablePreview = function (previewData = {}) {
@@ -187,6 +221,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vueAwesomeSwiper_282933cc === 'function') {
     await nuxt_plugin_vueAwesomeSwiper_282933cc(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_i18n_1fba523a === 'function') {
+    await nuxt_plugin_i18n_1fba523a(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_lightGalleryclient_235dd9a0 === 'function') {
@@ -233,6 +271,7 @@ async function createApp(ssrContext, config = {}) {
   })
 
   return {
+    store,
     app,
     router
   }
