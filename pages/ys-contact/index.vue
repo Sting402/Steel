@@ -12,7 +12,7 @@
 </template>
 
 <script>
-//??
+//聯絡我們
 import navbarScrollEffect from "../../common/navbarScrollEffect";
 import Form from "../../components/Contact/Form";
 import Map from "../../components/Contact/Map";

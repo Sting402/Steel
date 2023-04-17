@@ -4,17 +4,18 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _668a37b8 = () => interopDefault(import('..\\pages\\home-app-landing\\index.vue' /* webpackChunkName: "pages/home-app-landing/index" */))
-const _d4dbb120 = () => interopDefault(import('..\\pages\\home-app-landing-onePage\\index.vue' /* webpackChunkName: "pages/home-app-landing-onePage/index" */))
-const _6c8d05e1 = () => interopDefault(import('..\\pages\\home-cloud-hosting\\index.vue' /* webpackChunkName: "pages/home-cloud-hosting/index" */))
-const _5c14c060 = () => interopDefault(import('..\\pages\\home-crypto\\index.vue' /* webpackChunkName: "pages/home-crypto/index" */))
-const _c0886d06 = () => interopDefault(import('..\\pages\\home-cyber-security\\index.vue' /* webpackChunkName: "pages/home-cyber-security/index" */))
-const _2ec8edc4 = () => interopDefault(import('..\\pages\\home-data-analysis\\index.vue' /* webpackChunkName: "pages/home-data-analysis/index" */))
-const _fadebad2 = () => interopDefault(import('..\\pages\\home-digital-agency\\index.vue' /* webpackChunkName: "pages/home-digital-agency/index" */))
-const _6da97962 = () => interopDefault(import('..\\pages\\home-digital-agency-onePage\\index.vue' /* webpackChunkName: "pages/home-digital-agency-onePage/index" */))
-const _27d30c73 = () => interopDefault(import('..\\pages\\home-freelance-personal\\index.vue' /* webpackChunkName: "pages/home-freelance-personal/index" */))
-const _f5779304 = () => interopDefault(import('..\\pages\\home-help-desk\\index.vue' /* webpackChunkName: "pages/home-help-desk/index" */))
-const _db39e20e = () => interopDefault(import('..\\pages\\home-it-solutions\\index.vue' /* webpackChunkName: "pages/home-it-solutions/index" */))
+const _29bc49fb = () => interopDefault(import('..\\pages\\ys-about\\index.vue' /* webpackChunkName: "pages/ys-about/index" */))
+const _44cf74c0 = () => interopDefault(import('..\\pages\\ys-concept\\index.vue' /* webpackChunkName: "pages/ys-concept/index" */))
+const _cf79eff0 = () => interopDefault(import('..\\pages\\ys-contact\\index.vue' /* webpackChunkName: "pages/ys-contact/index" */))
+const _260ef5fe = () => interopDefault(import('..\\pages\\ys-employee\\index.vue' /* webpackChunkName: "pages/ys-employee/index" */))
+const _2389434c = () => interopDefault(import('..\\pages\\ys-equipment\\index.vue' /* webpackChunkName: "pages/ys-equipment/index" */))
+const _71cfdc7e = () => interopDefault(import('..\\pages\\ys-flow\\index.vue' /* webpackChunkName: "pages/ys-flow/index" */))
+const _2e66f283 = () => interopDefault(import('..\\pages\\ys-legacy\\index.vue' /* webpackChunkName: "pages/ys-legacy/index" */))
+const _96aa0f68 = () => interopDefault(import('..\\pages\\ys-map\\index.vue' /* webpackChunkName: "pages/ys-map/index" */))
+const _10f8757a = () => interopDefault(import('..\\pages\\ys-policy\\index.vue' /* webpackChunkName: "pages/ys-policy/index" */))
+const _6ed817d9 = () => interopDefault(import('..\\pages\\ys-product\\index.vue' /* webpackChunkName: "pages/ys-product/index" */))
+const _da09a2da = () => interopDefault(import('..\\pages\\ys-production\\index.vue' /* webpackChunkName: "pages/ys-production/index" */))
+const _050ef9c9 = () => interopDefault(import('..\\pages\\ys-quality\\index.vue' /* webpackChunkName: "pages/ys-quality/index" */))
 const _66847e95 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -29,49 +30,53 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/home-app-landing",
-    component: _668a37b8,
-    name: "home-app-landing"
+    path: "/ys-about",
+    component: _29bc49fb,
+    name: "ys-about"
   }, {
-    path: "/home-app-landing-onePage",
-    component: _d4dbb120,
-    name: "home-app-landing-onePage"
+    path: "/ys-concept",
+    component: _44cf74c0,
+    name: "ys-concept"
   }, {
-    path: "/home-cloud-hosting",
-    component: _6c8d05e1,
-    name: "home-cloud-hosting"
+    path: "/ys-contact",
+    component: _cf79eff0,
+    name: "ys-contact"
   }, {
-    path: "/home-crypto",
-    component: _5c14c060,
-    name: "home-crypto"
+    path: "/ys-employee",
+    component: _260ef5fe,
+    name: "ys-employee"
   }, {
-    path: "/home-cyber-security",
-    component: _c0886d06,
-    name: "home-cyber-security"
+    path: "/ys-equipment",
+    component: _2389434c,
+    name: "ys-equipment"
   }, {
-    path: "/home-data-analysis",
-    component: _2ec8edc4,
-    name: "home-data-analysis"
+    path: "/ys-flow",
+    component: _71cfdc7e,
+    name: "ys-flow"
   }, {
-    path: "/home-digital-agency",
-    component: _fadebad2,
-    name: "home-digital-agency"
+    path: "/ys-legacy",
+    component: _2e66f283,
+    name: "ys-legacy"
   }, {
-    path: "/home-digital-agency-onePage",
-    component: _6da97962,
-    name: "home-digital-agency-onePage"
+    path: "/ys-map",
+    component: _96aa0f68,
+    name: "ys-map"
   }, {
-    path: "/home-freelance-personal",
-    component: _27d30c73,
-    name: "home-freelance-personal"
+    path: "/ys-policy",
+    component: _10f8757a,
+    name: "ys-policy"
   }, {
-    path: "/home-help-desk",
-    component: _f5779304,
-    name: "home-help-desk"
+    path: "/ys-product",
+    component: _6ed817d9,
+    name: "ys-product"
   }, {
-    path: "/home-it-solutions",
-    component: _db39e20e,
-    name: "home-it-solutions"
+    path: "/ys-production",
+    component: _da09a2da,
+    name: "ys-production"
+  }, {
+    path: "/ys-quality",
+    component: _050ef9c9,
+    name: "ys-quality"
   }, {
     path: "/",
     component: _66847e95,

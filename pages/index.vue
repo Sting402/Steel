@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <Header />
     <Features />
     <Demos />
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+//首頁
 import Header from '../components/Preview/Header';
 import Features from '../components/Preview/Features';
 import Demos from '../components/Preview/Demos';

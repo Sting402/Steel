@@ -3,7 +3,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light style-1 nav-preview py-0">
     <div class="container-xxl">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="/assets/img/logo_cd.png" alt="" />
       </a>
       <button
@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="#">
+            <a class="nav-links dropLink active" href="/ys-about">
               公司介紹
               <small class="icon"
                 ><i class="bi bi-chevron-down me-1"></i
@@ -30,27 +30,27 @@
               <li class="dropdown-items">
                 <ul class="subDropDown">
                   <li>
-                    <NuxtLink to="/home-app-landing-onePage" class="subLink">
+                    <NuxtLink to="/ys-legacy" class="subLink">
                       公司沿革
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/home-cloud-hosting" class="subLink">
+                    <NuxtLink to="/ys-concept" class="subLink">
                       經營理念
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/home-crypto" class="subLink">
+                    <NuxtLink to="/ys-policy" class="subLink">
                       品質政策
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/home-cyber-security" class="subLink">
+                    <NuxtLink to="/ys-flow" class="subLink">
                       作業流程
                     </NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/home-data-analysis" class="subLink">
+                    <NuxtLink to="/ys-production" class="subLink">
                       生產作業導覽
                     </NuxtLink>
                   </li>
@@ -59,22 +59,22 @@
             </ul>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-digital-agency"> 品質政策 </a>
+            <a class="nav-links dropLink active" href="/ys-policy"> 品質政策 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-digital-agency-onePage"> 設備介紹 </a>
+            <a class="nav-links dropLink active" href="/ys-equipment"> 設備介紹 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-freelance-personal"> 產品介紹 </a>
+            <a class="nav-links dropLink active" href="/ys-product"> 產品介紹 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-help-desk"> 聯絡我們 </a>
+            <a class="nav-links dropLink active" href="/ys-contact"> 聯絡我們 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-it-solutions"> 公司地圖 </a>
+            <a class="nav-links dropLink active" href="/ys-map"> 公司地圖 </a>
           </li>
           <li class="nav-item dropDown megaMenu col3">
-            <a class="nav-links dropLink active" href="/home-it-solutions-onePage"> 人才招募 </a>
+            <a class="nav-links dropLink active" href="/ys-employee"> 人才招募 </a>
           </li>
         </ul>
       </div>
