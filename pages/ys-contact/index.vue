@@ -1,16 +1,3 @@
-<template>
-  <div>
-    
-    <Navbar ref="navbarRef" />
-    <main class="contact-page style-5">
-      <Form styleType="5" />
-      <Map />
-    </main>
-    <ScrollToTop />
-    <Footer :noWave="true" />
-  </div>
-</template>
-
 <script>
 //聯絡我們
 import navbarScrollEffect from "../../common/navbarScrollEffect";
@@ -48,3 +35,16 @@ export default {
   },
 };
 </script>
+<template>
+  <div>
+    <Navbar ref="navbarRef" />
+    <main class="contact-page style-5">
+      <Form styleType="5" />
+      <Map />
+    </main>
+    <ScrollToTop />
+    <Footer :noWave="true" />
+  </div>
+</template>
+
+

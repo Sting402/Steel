@@ -1,9 +1,21 @@
+<script>
+import communityData from "../../data/Contact/community.json";
+
+export default {
+  data() {
+    return {
+      communityData,
+    };
+  },
+};
+</script>
+
 <template>
   <section class="community section-padding style-5">
     <div class="container">
       <div class="section-head text-center style-4 mb-40">
         <small class="title_small">Contact us</small>
-        <h2 class="mb-20">Get In <span>Touch</span> </h2>
+        <h2 class="mb-20">Get In <span>Touch</span></h2>
         <p>We will contact again after receive your request in 24h</p>
       </div>
       <div class="content rounded-pill">
@@ -19,15 +31,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import communityData from '../../data/Contact/community.json';
-
-export default {
-  data() {
-    return {
-      communityData
-    }
-  },
-}
-</script>

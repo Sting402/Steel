@@ -1,22 +1,3 @@
-<template>
-  <div>
-    
-    <Header />
-    <Features />
-    <Demos />
-    <InnerPages />
-    <BuyNow />
-    <Portfolio />
-    <Codei />
-    <BestFeatures />
-    <Responsive />
-    <AllFeatures />
-    <Testimonials />
-    <CallToAction />
-    <Footer/>
-  </div>
-</template>
-
 <script>
 //首頁
 import Header from '../components/Preview/Header';
@@ -65,3 +46,23 @@ export default {
   }
 }
 </script>
+<template>
+  <div>
+    
+    <Header />
+    <Features />
+    <Demos />
+    <InnerPages />
+    <BuyNow />
+    <Portfolio />
+    <Codei />
+    <BestFeatures />
+    <Responsive />
+    <AllFeatures />
+    <Testimonials />
+    <CallToAction />
+    <Footer/>
+  </div>
+</template>
+
+
