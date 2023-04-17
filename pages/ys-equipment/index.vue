@@ -5,6 +5,7 @@ import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
 import Navbar from "../../components/Navbars/PreviewNav";
 import Footer from "../../components/Saas/Footer";
+import equipttable from "../../components/ys-components/equipt-table"
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     ScrollToTop,
     Navbar,
     Footer,
+    equipttable
   },
   head() {
     return {
@@ -38,6 +40,7 @@ export default {
     <Navbar ref="navbarRef" />
 
     <main class="contact-page style-5"></main>
+    <equipttable />
     <ScrollToTop />
     <Footer :noWave="true" />
   </div>
