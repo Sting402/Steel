@@ -3,84 +3,72 @@
     "name": "home-app-landing",
     "path": "/home-app-landing",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-app-landing\\\\index.vue",
-    "chunkName": "pages/home-app-landing/index",
-    "_name": "_668a37b8"
+    "chunkName": "pages/home-app-landing/index"
   },
   {
     "name": "home-app-landing-onePage",
     "path": "/home-app-landing-onePage",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-app-landing-onePage\\\\index.vue",
-    "chunkName": "pages/home-app-landing-onePage/index",
-    "_name": "_d4dbb120"
+    "chunkName": "pages/home-app-landing-onePage/index"
   },
   {
     "name": "home-cloud-hosting",
     "path": "/home-cloud-hosting",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-cloud-hosting\\\\index.vue",
-    "chunkName": "pages/home-cloud-hosting/index",
-    "_name": "_6c8d05e1"
+    "chunkName": "pages/home-cloud-hosting/index"
   },
   {
     "name": "home-crypto",
     "path": "/home-crypto",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-crypto\\\\index.vue",
-    "chunkName": "pages/home-crypto/index",
-    "_name": "_5c14c060"
+    "chunkName": "pages/home-crypto/index"
   },
   {
     "name": "home-cyber-security",
     "path": "/home-cyber-security",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-cyber-security\\\\index.vue",
-    "chunkName": "pages/home-cyber-security/index",
-    "_name": "_c0886d06"
+    "chunkName": "pages/home-cyber-security/index"
   },
   {
     "name": "home-data-analysis",
     "path": "/home-data-analysis",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-data-analysis\\\\index.vue",
-    "chunkName": "pages/home-data-analysis/index",
-    "_name": "_2ec8edc4"
+    "chunkName": "pages/home-data-analysis/index"
   },
   {
     "name": "home-digital-agency",
     "path": "/home-digital-agency",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-digital-agency\\\\index.vue",
-    "chunkName": "pages/home-digital-agency/index",
-    "_name": "_fadebad2"
+    "chunkName": "pages/home-digital-agency/index"
   },
   {
     "name": "home-digital-agency-onePage",
     "path": "/home-digital-agency-onePage",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-digital-agency-onePage\\\\index.vue",
-    "chunkName": "pages/home-digital-agency-onePage/index",
-    "_name": "_6da97962"
+    "chunkName": "pages/home-digital-agency-onePage/index"
   },
   {
     "name": "home-freelance-personal",
     "path": "/home-freelance-personal",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-freelance-personal\\\\index.vue",
-    "chunkName": "pages/home-freelance-personal/index",
-    "_name": "_27d30c73"
+    "chunkName": "pages/home-freelance-personal/index"
   },
   {
     "name": "home-help-desk",
     "path": "/home-help-desk",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-help-desk\\\\index.vue",
-    "chunkName": "pages/home-help-desk/index",
-    "_name": "_f5779304"
+    "chunkName": "pages/home-help-desk/index"
   },
   {
     "name": "home-it-solutions",
     "path": "/home-it-solutions",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\home-it-solutions\\\\index.vue",
-    "chunkName": "pages/home-it-solutions/index",
-    "_name": "_db39e20e"
+    "chunkName": "pages/home-it-solutions/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_66847e95"
+    "chunkName": "pages/index"
   }
 ]
