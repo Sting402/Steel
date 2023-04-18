@@ -4,16 +4,16 @@ import navbarScrollEffect from "../../common/navbarScrollEffect";
 import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
 import Navbar from "../../components/Navbars/PreviewNav";
-import Map from "../../components/Contact/Map";
 import Footer from "../../components/Saas/Footer";
+import MapComponent from '../../components/Gmap/index.vue'
 
 export default {
   components: {
     PreLoader,
     ScrollToTop,
     Navbar,
-    Map,
     Footer,
+    MapComponent
   },
   head() {
     return {
@@ -40,7 +40,8 @@ export default {
     <Navbar ref="navbarRef" />
 
     <main class="contact-page style-5">
-      <Map />
+      <!-- <Map /> -->
+      <MapComponent/>
     </main>
     <ScrollToTop />
     <Footer :noWave="true" />

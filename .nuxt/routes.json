@@ -3,91 +3,78 @@
     "name": "ys-about",
     "path": "/ys-about",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-about\\\\index.vue",
-    "chunkName": "pages/ys-about/index",
-    "_name": "_29bc49fb"
+    "chunkName": "pages/ys-about/index"
   },
   {
     "name": "ys-concept",
     "path": "/ys-concept",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-concept\\\\index.vue",
-    "chunkName": "pages/ys-concept/index",
-    "_name": "_44cf74c0"
+    "chunkName": "pages/ys-concept/index"
   },
   {
     "name": "ys-contact",
     "path": "/ys-contact",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-contact\\\\index.vue",
-    "chunkName": "pages/ys-contact/index",
-    "_name": "_cf79eff0"
+    "chunkName": "pages/ys-contact/index"
   },
   {
     "name": "ys-employee",
     "path": "/ys-employee",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-employee\\\\index.vue",
-    "chunkName": "pages/ys-employee/index",
-    "_name": "_260ef5fe"
+    "chunkName": "pages/ys-employee/index"
   },
   {
     "name": "ys-equipment",
     "path": "/ys-equipment",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-equipment\\\\index.vue",
-    "chunkName": "pages/ys-equipment/index",
-    "_name": "_2389434c"
+    "chunkName": "pages/ys-equipment/index"
   },
   {
     "name": "ys-flow",
     "path": "/ys-flow",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-flow\\\\index.vue",
-    "chunkName": "pages/ys-flow/index",
-    "_name": "_71cfdc7e"
+    "chunkName": "pages/ys-flow/index"
   },
   {
     "name": "ys-legacy",
     "path": "/ys-legacy",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-legacy\\\\index.vue",
-    "chunkName": "pages/ys-legacy/index",
-    "_name": "_2e66f283"
+    "chunkName": "pages/ys-legacy/index"
   },
   {
     "name": "ys-map",
     "path": "/ys-map",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-map\\\\index.vue",
-    "chunkName": "pages/ys-map/index",
-    "_name": "_96aa0f68"
+    "chunkName": "pages/ys-map/index"
   },
   {
     "name": "ys-policy",
     "path": "/ys-policy",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-policy\\\\index.vue",
-    "chunkName": "pages/ys-policy/index",
-    "_name": "_10f8757a"
+    "chunkName": "pages/ys-policy/index"
   },
   {
     "name": "ys-product",
     "path": "/ys-product",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-product\\\\index.vue",
-    "chunkName": "pages/ys-product/index",
-    "_name": "_6ed817d9"
+    "chunkName": "pages/ys-product/index"
   },
   {
     "name": "ys-production",
     "path": "/ys-production",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-production\\\\index.vue",
-    "chunkName": "pages/ys-production/index",
-    "_name": "_da09a2da"
+    "chunkName": "pages/ys-production/index"
   },
   {
     "name": "ys-quality",
     "path": "/ys-quality",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\ys-quality\\\\index.vue",
-    "chunkName": "pages/ys-quality/index",
-    "_name": "_050ef9c9"
+    "chunkName": "pages/ys-quality/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\legend-nb-01\\\\Desktop\\\\Steven\\\\Personal\\\\code\\\\Steel\\\\Steel\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_66847e95"
+    "chunkName": "pages/index"
   }
 ]

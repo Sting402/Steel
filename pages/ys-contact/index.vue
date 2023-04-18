@@ -2,7 +2,6 @@
 //聯絡我們
 import navbarScrollEffect from "../../common/navbarScrollEffect";
 import Form from "../../components/Contact/Form";
-import Map from "../../components/Contact/Map";
 import Navbar from "../../components/Navbars/PreviewNav";
 import Footer from "../../components/Saas/Footer";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";
@@ -14,8 +13,7 @@ export default {
     ScrollToTop,
     Navbar,
     Form,
-    Map,
-    Footer,
+    Footer
   },
   head() {
     return {
@@ -40,7 +38,6 @@ export default {
     <Navbar ref="navbarRef" />
     <main class="contact-page style-5">
       <Form styleType="5" />
-      <Map />
     </main>
     <ScrollToTop />
     <Footer :noWave="true" />
