@@ -10,9 +10,9 @@ export default ({ app, store }) => {
     locale: store.state.locale,
     fallbackLocale: 'zh-TW',
     messages: {
-      'en-US': require('../locales/en-US.json'),
-      'zh-TW': require('../locales/zh-TW.json'),
-      'ja-JP': require('../locales/jp-JP.json')
+      'en-US': require('@/locales/en-US.json'),
+      'zh-TW': require('@/locales/zh-TW.json'),
+      'jp-JP': require('@/locales/jp-JP.json')
     }
   })
 

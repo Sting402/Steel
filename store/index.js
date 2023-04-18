@@ -2,7 +2,7 @@ export const state = () => ({
   drawer: true,
   axios_url: process.env.VUE_APP_AXIOS_BASE_URL,
   language: false,
-  locales: ["en-US", "zh-TW"],
+  locales: ["en-US", "zh-TW", "jp-JP"],
   locale: "zh-TW",
   //language: false,
   //refwebsite:[],

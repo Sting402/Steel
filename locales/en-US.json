@@ -1,10 +1,11 @@
 {
     "header":{
-        "about":"About Us",
-        "quality":"Quality Policy",
+        "home":"Home",
+        "about":"About",
+        "quality":"Quality-Policy",
         "equipment":"Equipment",
         "product":"Products",
-        "contact":"Contact Us",
+        "contact":"Contact",
         "map":"Location",
         "employee":"Careers"
     },
@@ -180,6 +181,11 @@
         "sup3":"3. Employee Continuing Education Subsidies",
         "sup4":"4. Hospitalization Comfort Money",
         "rules":"*All company rules are subject to the Labor Standards Act."
+    },
+    "contactpage":{
+        "contact":"Contact",
+        "us":"Us",
+        "or":"Or you can contact us directly through"
     },
     "footer":{
         "phone":"Phone",

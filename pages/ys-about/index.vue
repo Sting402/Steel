@@ -1,5 +1,5 @@
 <script>
-//經營理念
+//公司介紹
 import navbarScrollEffect from "../../common/navbarScrollEffect";
 import PreLoader from "../../components/PreLoader/index.vue";
 import ScrollToTop from "../../components/ScrollToTop/index.vue";

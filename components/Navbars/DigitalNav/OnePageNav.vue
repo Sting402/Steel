@@ -13,49 +13,55 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link" data-scroll-nav="1" @click="scrollToSection">
-              about us
+              {{ $t("header.about") }}
             </a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" data-scroll-nav="2" @click="scrollToSection">
-              services
+              {{ $t("header.quality") }}
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-scroll-nav="3" @click="scrollToSection">
-              why us
+              {{ $t("header.equipment") }}
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-scroll-nav="4" @click="scrollToSection">
-              portfolio
+              {{ $t("header.product") }}
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-scroll-nav="5" @click="scrollToSection">
-              testimonials
+              {{ $t("header.contact") }}
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-scroll-nav="6" @click="scrollToSection">
-              blog
+              {{ $t("header.map") }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll-nav="6" @click="scrollToSection">
+              {{ $t("header.employee") }}
             </a>
           </li>
         </ul>
         <div class="nav-side">
           <div class="hotline pe-4">
-            <div class="icon me-3">
-              <i class="bi bi-telephone"></i>
-            </div>
+            
             <div class="cont">
-              <small class="text-muted m-0">hotline 24/7</small>
-              <h6>(06) 1234567</h6>
+              <small class="text-muted m-0">請來電: </small>
+              <small>(+886)-6-3842699</small>
             </div>
           </div>
           <div class="qoute-nav ps-4">
-            <a href="#0" class="btn sm-butn butn-gard border-0 text-white" data-scroll-nav="7">
-              <span>Contact us</span>
-            </a>
+
+                <select class="form-select form-select-sm">
+                  <option value="1">繁體中文</option>
+                  <option value="2">日本語</option>
+                  <option value="3">English</option>
+                </select>
           </div>
         </div>
       </div>
