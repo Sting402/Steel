@@ -56,7 +56,7 @@ export default {
   <section
     :class="`contact section-padding pt-${
       styleType === '4'
-    } style-6`"
+    } style-6`" data-scroll-index="5"
   >
     
       <div class="section-head text-center mb-100 style-5">

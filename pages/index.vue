@@ -9,9 +9,7 @@
       <Portfolio />
       <Services />
       <Contact />
-      <Map/>
-      <br>
-      <br>
+      <Map />
       <ChooseUs />
     </main>
     <Footer />
@@ -29,7 +27,7 @@ import Portfolio from "../components/Digital/Portfolio";
 import Contact from "../components/Contact/Form";
 import Map from "../components/Gmap/index.vue";
 import Footer from "../components/Saas/Footer";
-import Features from "../components/ITCreative/Features.vue"
+import Features from "../components/ITCreative/Features.vue";
 
 export default {
   name: "HomeDigitalAgency",
@@ -45,7 +43,7 @@ export default {
     Portfolio,
     Contact,
     Footer,
-    Features
+    Features,
   },
   head() {
     return {

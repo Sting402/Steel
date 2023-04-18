@@ -1,5 +1,5 @@
 <template>
-  <section class="services section-padding style-1 section" >
+  <section class="services section-padding style-1 section" data-scroll-index="4">
     <div class="container">
       <div class="row">
         <div class="col offset-lg-1">

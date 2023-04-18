@@ -1,7 +1,7 @@
 <template>
   <section
     class="portfolio section-padding bg-gray style-1"
-    data-scroll-index="4"
+    data-scroll-index="3"
   >
     <div class="container">
       <div class="row">

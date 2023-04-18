@@ -1,5 +1,5 @@
 <template>
-  <section class="features style-7 section-padding">
+  <section class="features style-7 section-padding" data-scroll-index="2">
     <div class="container">
       <div class="section-head text-center style-4 mb-40">
         <div class="top-title mb-10">

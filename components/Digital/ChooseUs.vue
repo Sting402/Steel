@@ -1,5 +1,5 @@
 <template>
-  <section class="choose-us section-padding pt-0 style-1" data-scroll-index="3">
+  <section class="choose-us section-padding pt-0 style-1 pad" data-scroll-index="7">
     <div class="container">
       <div class="info">
         <div class="section-head mb-60">
@@ -169,4 +169,5 @@ export default {
   flex-basis: 50%;
   max-width: 50%;
 }
+
 </style>

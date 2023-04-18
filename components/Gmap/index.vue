@@ -1,5 +1,9 @@
 <template>
-    <div ref="map" style="height: 600px;"></div>
+  <section class="choose-us section-padding pt-0 style-1 "
+ data-scroll-index="6"
+  >
+    <div ref="map" style="height: 600px; width: 90%; margin-left: 5%;"></div>
+  </section>
   </template>
   
   <script>
@@ -14,6 +18,7 @@
       }
     },
     mounted() {
+      
       // Load the Google Maps JavaScript API script
       const script = document.createElement('script')
       script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDRWy9GOXpIZErdmQ9n4vQJ0A8yQaLuDjE`
@@ -40,4 +45,7 @@
     }
   }
   </script>
+  <style scoped>
+
+</style>
   

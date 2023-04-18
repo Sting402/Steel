@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light style-1" ref="navbarRef">
+  <nav class="navbar navbar-expand-lg  style-1" ref="navbarRef">
     <div class="container">
-      <a class="navbar-brand" href="#" @click="handleSectionClick">
+      <a class="navbar-brand" href="#" @click="ScrollToSection">
         <img src="/assets/img/vs.jpg" data-scroll-nav="0" alt="" />
       </a>
       <button
@@ -18,30 +18,41 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link" data-scroll-nav="1" @click="handleSectionClick">
+            <a class="nav-link" data-scroll-nav="1" @click="ScrollToSection">
               {{ $t("header.about") }}
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll-nav="2" @click="handleSectionClick">
+            <a class="nav-link" data-scroll-nav="2" @click="ScrollToSection">
+              {{ $t("about.legacy") }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll-nav="3" @click="ScrollToSection">
               {{ $t("header.equipment") }}
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll-nav="3" @click="handleSectionClick">
+            <a class="nav-link" data-scroll-nav="4" @click="ScrollToSection">
+              {{ $t("header.product") }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll-nav="5" @click="ScrollToSection">
               {{ $t("header.contact") }}
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll-nav="4" @click="handleSectionClick">
+            <a class="nav-link" data-scroll-nav="6" @click="ScrollToSection">
               {{ $t("header.map") }}
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll-nav="5" @click="handleSectionClick">
+            <a class="nav-link" data-scroll-nav="7" @click="ScrollToSection">
               {{ $t("header.employee") }}
             </a>
           </li>
+          
         </ul>
         <div class="nav-side">
           <div class="hotline pe-4">
@@ -72,13 +83,10 @@ import navbarScrollEffect from "../../../common/navbarScrollEffect";
 export default {
   data() {
     return {};
-  },
+navbarRef  },
   methods: {
-    handleSectionClick(e) {
+    ScrollToSection(e) {
       scrollToSection(e);
-    },
-    changeLanguage(language) {
-      this.$i18n.locale = language;
     },
   },
   mounted() {
@@ -93,7 +101,7 @@ export default {
         const height = section.offsetHeight;
         const scroll = window.scrollY;
 
-        if (scroll + 200 > offset && scroll + 200 < offset + height) {
+        if (scroll  > offset && scroll  < offset + height) {
           document
             .querySelector(`[data-scroll-nav="${index}"]`)
             .classList.add("active");
@@ -113,6 +121,7 @@ img {
   border-radius: 12px !important;
   border: 1px solid black;
   margin-left: -40px;
+  height: 50px;
 }
 .lang{
   border-radius: 6px;
