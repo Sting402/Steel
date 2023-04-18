@@ -12,9 +12,9 @@
                 </h2>
               </div>
               <div class="text">
-                We transform businesses of most major sectors with powerful and adaptable digital solutions that satisfy the needs of today.
+                
               </div>
-              <div class="bttns mt-5">
+              <!-- <div class="bttns mt-5">
                 <NuxtLink to="/page-services-5" class="btn btn-dark">
                   <span>our services</span>
                 </NuxtLink>
@@ -22,7 +22,7 @@
                   <i class="bi bi-play wow heartBeat infinite slow"></i>
                   <span>Iteck’s <br /> Showreels</span>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-5 offset-lg-1">

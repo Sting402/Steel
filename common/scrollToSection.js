@@ -6,6 +6,6 @@ export default function scrollToSection(event) {
   if (section) {
     setTimeout(() => {
       section.scrollIntoView({ behavior: 'smooth' });
-    }, 300);
+    }, 400);
   }
 }

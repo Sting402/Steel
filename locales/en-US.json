@@ -149,12 +149,13 @@
         "name12":"NC Shearing Machine"
     },
     "productpage":{
-        "product":"Precision Sheet Metal Fabrication",
-        "product1":"Computer Network Products",
-        "product2":"Electric Toys",
-        "product3":"Sports Equipment",
-        "product4":"Car Parts",
-        "product5":"Beverage and Food Machines"
+        "intro":"Product introduction",
+        "product":"1.Precision Sheet Metal Fabrication",
+        "product1":"2.Computer Network Products",
+        "product2":"3.Electric Toys",
+        "product3":"4.Sports Equipment",
+        "product4":"5.Car Parts",
+        "product5":"6.Beverage and Food Machines"
     },
     "employeepage":{
         "benifit":"Company Benefits",

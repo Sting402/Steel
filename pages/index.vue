@@ -5,53 +5,52 @@
     <Header />
     <main>
       <About />
-      <Services />
-      <ChooseUs />
+      <Features />
       <Portfolio />
-      <Testimonials />
-      <Team />
-      <Blog />
+      <Services />
       <Contact />
+      <Map/>
+      <br>
+      <br>
+      <ChooseUs />
     </main>
     <Footer />
   </div>
 </template>
 
 <script>
-import TopNav from '../components/Navbars/DigitalNav/TopNav';
-import Navbar from '../components/Navbars/DigitalNav/OnePageNav';
-import Header from '../components/Digital/Header';
-import About from '../components/Digital/About';
-import Services from '../components/Digital/Services';
-import ChooseUs from '../components/Digital/ChooseUs';
-import Portfolio from '../components/Digital/Portfolio';
-import Testimonials from '../components/Digital/Testimonials';
-import Team from '../components/Digital/Team';
-import Blog from '../components/Digital/Blog';
-import Contact from '../components/Digital/Contact';
-import Footer from '../components/Digital/Footer';
+import TopNav from "../components/Navbars/DigitalNav/TopNav";
+import Navbar from "../components/Navbars/DigitalNav/OnePageNav";
+import Header from "../components/Digital/Header";
+import About from "../components/Digital/About";
+import Services from "../components/Digital/Services";
+import ChooseUs from "../components/Digital/ChooseUs";
+import Portfolio from "../components/Digital/Portfolio";
+import Contact from "../components/Contact/Form";
+import Map from "../components/Gmap/index.vue";
+import Footer from "../components/Saas/Footer";
+import Features from "../components/ITCreative/Features.vue"
 
 export default {
-  name: 'HomeDigitalAgency',
+  name: "HomeDigitalAgency",
   layout: "Main",
   components: {
     TopNav,
     Navbar,
     Header,
     About,
+    Map,
     Services,
     ChooseUs,
     Portfolio,
-    Testimonials,
-    Team,
-    Blog,
     Contact,
-    Footer
+    Footer,
+    Features
   },
   head() {
     return {
       titleTemplate: "%s - Digital Agency",
-    }
-  }
-}
+    };
+  },
+};
 </script>

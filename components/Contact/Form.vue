@@ -55,27 +55,23 @@ export default {
 <template>
   <section
     :class="`contact section-padding pt-${
-      styleType === '4' ? '0' : '50'
+      styleType === '4'
     } style-6`"
   >
-    <template v-if="styleType === '5'">
+    
       <div class="section-head text-center mb-100 style-5">
-        <h2 class="mb-20">
-          {{ rtl ? "يسعدنا" : "聯絡" }}
-          <span>{{ rtl ? "تواصلك" : "我們" }}</span> {{ rtl && "معنا" }}
-        </h2>
+        <h3 class="mb-20">
+          {{ $t('contactpage.contact') }}
+          <span>{{ $t('contactpage.us') }}</span> 
+        </h3>
         <p>
-          {{
-            rtl
-              ? "سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة"
-              : "您也可以透過以下聯絡資料，直接聯絡我們"
-          }}
+          {{ $t('contactpage.or') }}
         </p>
       </div>
       <div class="text-center mb-100">
-        <h2 class="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">
+        <h3 class="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">
           電話:{{ contactInfoData.phone }}
-        </h2>
+        </h3>
         <h4 class="fw-normal mb-20 color-000">
           傳真:{{ contactInfoData.fax }}
         </h4>
@@ -83,7 +79,7 @@ export default {
           廠址: {{ contactInfoData.address }}
         </h4>
       </div>
-    </template>
+    
     <div class="container">
       <div class="content">
         <div class="row justify-content-center">

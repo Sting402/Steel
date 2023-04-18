@@ -12,7 +12,7 @@
                 class="dropdown"
                 @mousemove="handleMouseMove"
                 @mouseleave="handleMouseLeave"
-                @click="ischangelang"
+                
               >
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <li

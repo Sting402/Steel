@@ -4,44 +4,24 @@
       <div class="row gx-0 justify-content-between">
         <div class="col-lg-3 col-sm-6">
           <div class="items">
-            <div class="title">
-              公司介紹
-            </div>
+            <div class="title">公司介紹</div>
             <small class="footer-text">
               宇盛產品範圍涵蓋
               <ul>
-                <li>
-                  電控 / 儀控外箱
-                </li>
-                <li>
-                  電子通訊產品及機櫃
-                </li>
-                <li>
-                  CNC 加工機械
-                </li>
+                <li>電控 / 儀控外箱</li>
+                <li>電子通訊產品及機櫃</li>
+                <li>CNC 加工機械</li>
               </ul>
               面板及零配件等。
             </small>
-            <!-- <div class="socail-icons">
-              <a href="https://twitter.com/" rel="noreferrer" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://facebook.com/" rel="noreferrer" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://instagram.com/" rel="noreferrer" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div> -->
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="items">
-            <div class="title">
-              公司資訊
-            </div>
+            <div class="title">公司資訊</div>
             <small class="text mb-10 d-block">
-              {{ footerData.address.address1 }} <br /> {{ footerData.address.address2 }}
+              {{ footerData.address.address1 }} <br />
+              {{ footerData.address.address2 }}
             </small>
             <small class="text mb-10 d-block">
               {{ footerData.phone }}
@@ -53,24 +33,20 @@
         </div>
         <div class="col-lg-2">
           <div class="items">
-            <div class="title">
-              相關連結
-            </div>
+            <div class="title">相關連結</div>
             <ul>
               <li v-for="(link, index) in footerData.usefulLinks" :key="index">
-                <a :href="link.link">{{link.title}}</a>
+                <a :href="link.link">{{ link.title }}</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="items">
-            <div class="title">
-              相關連結
-            </div>
+            <div class="title">相關連結</div>
             <ul>
               <li v-for="(link, index) in footerData.resources" :key="index">
-                <a :href="link.link">{{link.title}}</a>
+                <a :href="link.link">{{ link.title }}</a>
               </li>
             </ul>
           </div>
@@ -80,7 +56,7 @@
         <div class="row">
           <div class="col-lg-3 col-sm-6">
             <div class="logo">
-              <img src="/assets/img/logo_foot_home5.png" alt="" />
+              <img src="/assets/img/vs.png" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
@@ -95,17 +71,18 @@
 </template>
 
 <script>
-import footerData from '../../data/Saas/footer.json';
+import footerData from "../../data/Saas/footer.json";
 
 export default {
   data() {
     return {
-      footerData
-    }
+      footerData,
+    };
   },
-}
+};
 </script>
 <style scoped>
-
-
+.logo {
+  height: 40px;
+}
 </style>

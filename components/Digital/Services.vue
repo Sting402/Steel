@@ -1,34 +1,82 @@
 <template>
-  <section class="services section-padding style-1" data-scroll-index="2">
+  <section class="services section-padding style-1 section" >
     <div class="container">
       <div class="row">
         <div class="col offset-lg-1">
           <div class="section-head mb-60">
-            <h6 class="color-main text-uppercase wow fadeInUp">our services</h6>
             <h2 class="wow fadeInUp">
-              Perfect IT Solutions <span class="fw-normal">For Your Business</span>
+              {{$t('header.product')}}
             </h2>
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="content1">
         <div class="row">
-          <div class="col-lg-4" v-for="(service, index) in services" :key="index">
-            <div class="service-box mb-4 wow fadeInUp" :data-wow-delay="index * 0.2 + 's'">
+          <div class="col-lg-4">
+            <div
+              class="service-box mb-4 wow fadeInUp"
+              
+            >
               <h5>
-                <NuxtLink to="/page-services-5">{{ service.title }}</NuxtLink>
-                <span class="num">{{ service.number }}</span>
+                {{$t('quality.product1')}}
+                
               </h5>
-              <div class="icon">
+              <!-- <div class="icon">
                 <img :src="service.icon" alt="" />
-              </div>
+              </div> -->
               <div class="info">
-                <div class="text">
-                  {{ service.text }}
-                </div>
-                <div class="tags">
-                  <a href="#" class="me-1" v-for="(tag, i) in service.tags" :key="i">{{ tag }}</a>
-                </div>
+                <div class="text">{{$t('quality.product2')}}</div>
+                <div class="text">{{$t('quality.product3')}}</div>
+                <div class="text">{{$t('quality.product4')}}</div>
+                <div class="text">{{$t('quality.product5')}}</div>
+                <div class="text">{{$t('quality.product6')}}</div>
+                <div class="text">{{$t('quality.product7')}}</div>  
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="service-box mb-4 wow fadeInUp"
+              
+            >
+              <h5>
+                {{$t('quality.design')}}
+                
+              </h5>
+              <!-- <div class="icon">
+                <img :src="service.icon" alt="" />
+              </div> -->
+              <div class="info">
+                <div class="text">{{$t('quality.design1')}}</div>
+                <div class="text">{{$t('quality.design2')}}</div>
+                <div class="text">{{$t('quality.design3')}}</div>
+                <div class="text">{{$t('quality.design4')}}</div>
+                <div class="text">{{$t('quality.design5')}}</div>
+                <div class="text">{{$t('quality.design6')}}</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="service-box mb-4 wow fadeInUp"
+              
+            >
+              <h5>
+                {{$t('productpage.intro')}}
+                
+              </h5>
+              <!-- <div class="icon">
+                <img :src="service.icon" alt="" />
+              </div> -->
+              <div class="info3">
+                <div class="text">{{$t('productpage.product')}}</div>
+                <div class="text">{{$t('productpage.product1')}}</div>
+                <div class="text">{{$t('productpage.product2')}}</div>
+                <div class="text">{{$t('productpage.product3')}}</div>
+                <div class="text">{{$t('productpage.product4')}}</div>
+                <div class="text">{{$t('productpage.product5')}}</div>
+                
               </div>
             </div>
           </div>
@@ -51,3 +99,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.content1{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.info3 .text {
+  margin-bottom: 10px;
+}
+</style>

@@ -149,12 +149,13 @@
         "name12":"NCシャーリングマシン"
     },
     "productpage":{
-        "product":"精密板金製作",
-        "product1":"コンピュータネットワーク製品",
-        "product2":"電動遊具",
-        "product3":"スポーツ器具",
-        "product4":"自動車部品",
-        "product5":"飲料食品機器"
+        "intro":"製品紹介",
+        "product":"1.精密板金製作",
+        "product1":"2.コンピュータネットワーク製品",
+        "product2":"3.電動遊具",
+        "product3":"4.スポーツ器具",
+        "product4":"5.自動車部品",
+        "product5":"6.飲料食品機器"
     },
     "employeepage":{
         "benifit":"会社の福利厚生",

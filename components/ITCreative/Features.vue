@@ -4,77 +4,196 @@
       <div class="section-head text-center style-4 mb-40">
         <div class="top-title mb-10">
           <img src="/assets/img/line_l.png" alt="" />
-          <h5> Features </h5>
+          <h5>公司沿革</h5>
           <img src="/assets/img/line_r.png" alt="" />
         </div>
-        <h2 class="">
-          Built With Best <span> Features </span> <br /> & Good UX
-        </h2>
+        <h4 class="">
+          {{ $t("legacypage.start") }}
+          <br />
+          {{ $t("legacypage.who") }}
+          <br />
+          {{ $t("legacypage.cap") }}
+          <br />
+          {{ $t("legacypage.staffs") }}
+          <br />
+          {{ $t("legacypage.history") }}
+        </h4>
       </div>
     </div>
     <div class="content">
       <div class="features-slider7">
         <swiper :options="swiperOptions">
-          <swiper-slide v-for="(feature, index) in features" :key="index">
-            <a href="#" class="features-card style-7">
-              <div class="icon">
-                <img :src="feature.image" alt="" />
-              </div>
-              <div class="info">
-                <p class="color-999"> Features {{feature.id}} </p>
-                <h5> {{feature.title.part1}} <br /> {{feature.title.part2}} </h5>
-              </div>
-            </a>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1980》</p>
+              <h5>
+                {{$t('legacypage.1980')}} 
+              </h5>
+            </div>
           </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1983》</p>
+              <h5>
+                {{$t('legacypage.1983')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1990》</p>
+              <h5>
+                {{$t('legacypage.1990')}} 
+                <br>
+                {{$t('legacypage.1990-1')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1994》</p>
+              <h5>
+                {{$t('legacypage.1994')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1995》</p>
+              <h5>
+                {{$t('legacypage.1995')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《1997》</p>
+              <h5>
+                {{$t('legacypage.1997')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2003》</p>
+              <h5>
+                {{$t('legacypage.2003')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2007》</p>
+              <h5>
+                {{$t('legacypage.2007')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2008》</p>
+              <h5>
+                {{$t('legacypage.2008')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2013》</p>
+              <h5>
+                {{$t('legacypage.2013')}} 
+                <br>
+                {{$t('legacypage.2013-1')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2015》</p>
+              <h5>
+                {{$t('legacypage.2015')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2016》</p>
+              <h5>
+                {{$t('legacypage.2016')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2017》</p>
+              <h5>
+                {{$t('legacypage.2017')}} 
+                <br>
+                {{$t('legacypage.2017-1')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2018》</p>
+              <h5>
+                {{$t('legacypage.2018')}} 
+              </h5>
+            </div>
+          </swiper-slide>
+          <swiper-slide >
+            <div class="info">
+              <p class="color-999">《2019》</p>
+              <h5>
+                {{$t('legacypage.2019')}} 
+              </h5>
+            </div>
+          </swiper-slide>          
         </swiper>
       </div>
-      <div class="btns text-center mt-10">
-        <a href="#0" class="btn btn-icon-circle rounded-pill bg-blue7 fw-bold text-white me-4 mb-4 mb-lg-0">
-          <small> Learn More <i class="fas fa-long-arrow-alt-right"></i> </small>
-        </a>
-        <a href="#0" class="btn btn-icon-circle rounded-pill bg-white fw-bold me-4">
-          <small> Purchase Now <i class="fas fa-long-arrow-alt-right bg-light"></i> </small>
-        </a>
-      </div>
     </div>
-    <img src="/assets/img/feat_circle.png" alt="" class="img-circle rotate-center" />
+    <img
+      src="/assets/img/feat_circle.png"
+      alt=""
+      class="img-circle rotate-center"
+    />
   </section>
 </template>
 
 <script>
-import features from '../../data/ITCreative/features.json';
+import features from "../../data/ITCreative/features.json";
 
 export default {
   data() {
     return {
       features,
       swiperOptions: {
-        spaceBetween: 50,
+        spaceBetween: 15,
         centeredSlides: true,
         speed: 10000,
         autoplay: {
-          delay: 1
+          delay: 1,
         },
         loop: true,
         breakpoints: {
           0: {
-            slidesPerView: 1
+            slidesPerView: 1,
           },
           480: {
-            slidesPerView: 1
+            slidesPerView: 1,
           },
           787: {
-            slidesPerView: 1
+            slidesPerView: 1,
           },
           991: {
-            slidesPerView: 2
+            slidesPerView: 2,
           },
           1200: {
-            slidesPerView: 3
-          }
-        }
-      }
-    }
+            slidesPerView: 3,
+          },
+        },
+      },
+    };
   },
-}
+};
 </script>

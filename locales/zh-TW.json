@@ -149,12 +149,13 @@
       "name12":"NC剪床"
     },
     "productpage":{
-        "product":"精密板金製作",
-        "product1":"電腦網路產品",
-        "product2":"電動遊樂器",
-        "product3":"運動器材",
-        "product4":"起車零件",
-        "product5":"飲料食品機器"
+        "intro":"產品介紹",
+        "product":"1.精密板金製作",
+        "product1":"2.電腦網路產品",
+        "product2":"3.電動遊樂器",
+        "product3":"4.運動器材",
+        "product4":"5.起車零件",
+        "product5":"6.飲料食品機器"
     },
     "employeepage":{
         "benifit":"公司福利",
