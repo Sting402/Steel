@@ -189,8 +189,17 @@
         "or":"您也可以透過以下聯絡資料，直接聯絡我們"
     },
     "footer":{
+        "footer1":"宇盛產品範圍涵蓋",
+        "footer2":"電控 / 儀控外箱",
+        "footer3":"電子通訊產品及機櫃",
+        "footer4":"CNC 加工機械",
+        "footer5":"面板及零配件等。",
+        "footer6":"公司資訊",
+        "footer7":"相關連結",
         "phone":"電話",
         "fax":"傳真",
-        "E-Mail":"E-Mail"
+        "E-Mail":"E-Mail",
+        "address":"地址",
+        "locate":"708台南市科技五路58號"
     }
 }

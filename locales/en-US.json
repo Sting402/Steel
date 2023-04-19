@@ -189,8 +189,17 @@
         "or":"Or you can contact us directly through"
     },
     "footer":{
-        "phone":"Phone",
-        "fax":"Fax",
-        "E-Mail":"E-Mail"
+        "footer1": "Yusheng's product range includes",
+        "footer2": "Electric control/instrument control cabinets",
+        "footer3": "Electronic communication products and cabinets",
+        "footer4": "CNC machining machinery",
+        "footer5": "Panels and accessories, etc.",
+        "footer6": "Company Information",
+        "footer7": "Related links",
+        "phone": "Phone",
+        "fax": "Fax",
+        "E-Mail": "E-Mail",
+        "address": "Address",
+        "locate": "No. 58, Keji 5th Rd., Tainan Science Park, Tainan City 708, Taiwan"
     }
 }
