@@ -62,7 +62,7 @@
             </div>
           </div>
 
-          <select @change="onChangeLang($event.target.value)">
+          <select @change="onChangeLang($event.target.value)" :value="this.$i18n.locale">
             <option value="zh-TW">繁體中文</option>
             <option value="en-US">English</option>
             <option value="jp-JP">日本語</option>
