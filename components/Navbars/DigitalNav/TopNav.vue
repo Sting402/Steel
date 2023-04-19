@@ -1,5 +1,5 @@
 <template>
-  <div class="top-navbar style-1">
+  <div class="top-navbar style-3">
     <div class="container">
       <div class="content">
         <div class="row align-items-center">
