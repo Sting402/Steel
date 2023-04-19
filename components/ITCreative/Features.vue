@@ -4,7 +4,7 @@
       <div class="section-head text-center style-4 mb-40">
         <div class="top-title mb-10">
           <img src="/assets/img/line_l.png" alt="" />
-          <h5>公司沿革</h5>
+          <h5>{{ $t("about.legacy") }}</h5>
           <img src="/assets/img/line_r.png" alt="" />
         </div>
         <h4 class="">
