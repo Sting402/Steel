@@ -97,6 +97,21 @@ export default {
     changeLang() {
       this.$store.commit("changeLang");
     },
+    handleMouseMove(event) {
+      const dropDownToggler = event.target.classList.contains('dropdown-toggle') ? event.target : event.target.querySelector('.dropdown-toggle');
+      const dropDownMenu = dropDownToggler?.nextElementSibling;
+
+      dropDownToggler?.classList?.add('show');
+      dropDownMenu?.classList?.add('show');
+    },
+    handleMouseLeave(event) {
+      const dropdown = event.target.classList.contains('dropdown') ? event.target : event.target.closest('.dropdown');
+      const dropDownToggler = dropdown.querySelector('.dropdown-toggle');
+      const dropDownMenu = dropdown.querySelector('.dropdown-menu');
+
+      dropDownToggler?.classList?.remove('show');
+      dropDownMenu?.classList?.remove('show');
+    }
   },
   mounted() {
     let getlang = sessionStorage.getItem("savedlocale");
@@ -143,9 +158,9 @@ img {
   margin-left: -40px;
   height: 50px;
 }
-.lang {
+select {
   border-radius: 6px;
-  border: 1px solid black;
+  
   margin-left: 10px;
   margin-top: 10px;
   padding: 4px;
