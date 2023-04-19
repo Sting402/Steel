@@ -70,13 +70,13 @@ export default {
       </div>
       <div class="text-center mb-100">
         <h3 class="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">
-          電話:{{ contactInfoData.phone }}
+          {{$t('footer.phone')}}:{{ contactInfoData.phone }}
         </h3>
         <h4 class="fw-normal mb-20 color-000">
-          傳真:{{ contactInfoData.fax }}
+          {{$t('footer.fax')}}:{{ contactInfoData.fax }}
         </h4>
         <h4 class="fw-normal mb-10 color-000">
-          廠址: {{ contactInfoData.address }}
+          {{$t('footer.phone')}}: {{ contactInfoData.address }}
         </h4>
       </div>
     
