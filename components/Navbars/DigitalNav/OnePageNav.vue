@@ -61,15 +61,12 @@
               <h6>+(886)-6-384-2699</h6>
             </div>
           </div>
-          
-            
 
           <select @change="onChangeLang($event.target.value)">
-  <option value="zh-TW">繁體中文</option>
-  <option value="en-US">English</option>
-  <option value="jp-JP">日本語</option>
-</select>
-
+            <option value="zh-TW">繁體中文</option>
+            <option value="en-US">English</option>
+            <option value="jp-JP">日本語</option>
+          </select>
         </div>
       </div>
     </div>
@@ -77,8 +74,8 @@
 </template>
 
 <script>
-import scrollToSection from "../../../common/scrollToSection";
 import navbarScrollEffect from "../../../common/navbarScrollEffect";
+import scrollToSection from "../../../common/scrollToSection";
 
 export default {
   data() {
@@ -89,42 +86,15 @@ export default {
 
   methods: {
     onChangeLang(locale) {
-    this.showlang = !this.showlang;
-    this.$i18n.locale = locale;
-    sessionStorage.setItem("savedlocale", this.$i18n.locale);
-    this.$store.commit("changeLang");
-  },
+      this.showlang = !this.showlang;
+      this.$i18n.locale = locale;
+      sessionStorage.setItem("savedlocale", this.$i18n.locale);
+      this.$store.commit("changeLang");
+    },
     ScrollToSection(e) {
       scrollToSection(e);
     },
     changeLang() {
-      this.$store.commit("changeLang");
-    },
-
-    changeLanguage(locale) {
-      this.showlang = !this.showlang;
-      sessionStorage.setItem("savedlocale", this.$i18n.locale);
-      this.$i18n.locale = locale;
-      this.$store.commit("changeLang");
-      console.log("locale", this.$i18n.locale);
-      console.log("store", Store.state.locale);
-    },
-    isChangeLang() {
-      this.showlang = !this.showlang;
-      this.$i18n.locale = "zh-TW";
-      sessionStorage.setItem("savedlocale", this.$i18n.locale);
-      this.$store.commit("changeLang");
-    },
-    isChangeLang1() {
-      this.showlang = !this.showlang;
-      this.$i18n.locale = "en-US";
-      sessionStorage.setItem("savedlocale", this.$i18n.locale);
-      this.$store.commit("changeLang");
-    },
-    isChangeLang2() {
-      this.showlang = !this.showlang;
-      this.$i18n.locale = "jp-JP";
-      sessionStorage.setItem("savedlocale", this.$i18n.locale);
       this.$store.commit("changeLang");
     },
   },
@@ -136,11 +106,10 @@ export default {
         this.$i18n.locale = "zh-TW";
       } else if (getlang === "en-US") {
         this.$i18n.locale = "en-US";
-      } else if (getlang ==="jp-JP"){
+      } else if (getlang === "jp-JP") {
         this.$i18n.locale = "jp-JP";
       }
     } else {
-      
     }
     console.log(this.$i18n.locale);
     navbarScrollEffect(this.$refs.navbarRef);
